@@ -40,23 +40,33 @@ h1 {
     position: fixed;
     width: 100%;
     position:sticky;
-    flex: auto;
+ 
 }
-
+/*Anchor elements navigation*/
 .top-navigation a{
     float: left;
     color: white;
     text-align: center;
     text-decoration: none;
     font-family: 'montserat', sans-serif;
-    font-size: 17px;
+    display: block;
+    padding: 14px 16px;
+  
 }
-
+/*Hover navigation*/
 .top-navigation a:hover{
     background-color: grey;
-    color:black;
 }
 
+/*Align navigation items horizontally*/
+.top-navigation li{
+    display: inline;
+}
+
+/*Highlight activated navigation tab*/
+.active{
+    background-color: brown;
+}
 
 /*Main*/
 Main {}
