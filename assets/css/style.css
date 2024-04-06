@@ -16,21 +16,47 @@ body {
     background-color: papayawhip;
 }
 
-/*Header*/
+/* General Header*/
 header {
-    position: sticky;
+    position:sticky;
     font-family: 'montserat', sans-serif;
 }
-
+/*Remove the anchor decoration*/
 header a {
     text-decoration: none;
     color: black;
 }
-
+/*Header 1 */
 h1 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
+
+/*Navigation*/
+.top-navigation{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    position:sticky;
+    flex: auto;
+}
+
+.top-navigation a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'montserat', sans-serif;
+    font-size: 17px;
+}
+
+.top-navigation a:hover{
+    background-color: grey;
+    color:black;
+}
+
 
 /*Main*/
 Main {}
