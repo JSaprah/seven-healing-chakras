@@ -13,4 +13,27 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: papayawhip;
 }
+
+/*Header*/
+header {
+    position: sticky;
+    font-family: 'montserat', sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'montserat', sans-serif;
+    text-transform: uppercase;
+}
+
+/*Main*/
+Main {}
+
+/*Footer*/
+footer {}
