@@ -18,14 +18,17 @@ body {
 
 /* General Header*/
 header {
-    position:sticky;
+    position: sticky;
     font-family: 'montserat', sans-serif;
+    box-shadow: 0 2px 2px pink;
 }
+
 /*Remove the anchor decoration*/
 header a {
     text-decoration: none;
     color: black;
 }
+
 /*Header 1 */
 h1 {
     font-family: 'montserat', sans-serif;
@@ -33,17 +36,23 @@ h1 {
     text-align: center;
 }
 
+/*Hero image seven chakras*/
+#hero {
+    background: url(../images/seven-chakras.jpg);
+}
+
 /*Navigation*/
-.top-navigation{
+.top-navigation {
     background-color: black;
     overflow: hidden;
     position: fixed;
     width: 100%;
-    position:sticky;
- 
+    position: sticky;
+
 }
+
 /*Anchor elements navigation*/
-.top-navigation a{
+.top-navigation a {
     float: left;
     color: white;
     text-align: center;
@@ -51,25 +60,37 @@ h1 {
     font-family: 'montserat', sans-serif;
     display: block;
     padding: 14px 16px;
-  
+    border-right: 2px solid grey;
+
 }
+
 /*Hover navigation*/
-.top-navigation a:hover{
-    background-color: grey;
+.top-navigation a:hover {
+    background-color: rgba(152, 93, 93, 0.5);
 }
 
 /*Align navigation items horizontally*/
-.top-navigation li{
+.top-navigation li {
     display: inline;
 }
 
 /*Highlight activated navigation tab*/
-.active{
-    background-color: brown;
+.active {
+    background-color: rgb(108, 19, 19);
 }
 
 /*Main*/
-Main {}
+Main {
+
+    /*Chakra header*/
+    .chakra-header {
+        font-family: 'montserrat', sans-serif;
+    }
+
+    .mantra {
+        font-family: 'lora', sans-serif;
+    }
+}
 
 /*Footer*/
 footer {}
