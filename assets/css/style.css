@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: papayawhip;
+
 }
 
 /* General Header*/
@@ -92,14 +93,16 @@ Main {
         font-family: 'montserrat', sans-serif;
     }
 
-    #root img{
-        margin-left: 10px;
+    /* seven chakras icon image sizing*/
+    .seven-chakras-container img{
         height: 40px;
         width: 40px;
     }
 
-    #root h3, #root img{
+     /* seven chakras icon image aligning*/
+    .seven-chakras-container h3, .seven-chakras-container img{
         display: inline-block;
+        vertical-align: middle;
     }
 
     .mantra {
