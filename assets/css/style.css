@@ -171,6 +171,9 @@ h1 {
     background-color: rgba(143, 0, 255, 0.2);
 }
 
+.seven-chakras-container table{
+    margin:10px;
+}
 .seven-chakras-container table th {
     text-align: left;
 }
