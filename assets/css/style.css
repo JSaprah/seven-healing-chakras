@@ -14,20 +14,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: papayawhip;
-
 }
 
 /* General Header*/
 header {
-    position: sticky;
+    position: fixed;
     font-family: 'montserat', sans-serif;
     box-shadow: 0 2px 3px pink;
+    width: 100%;
+    background-color: rgb(108, 19, 19);
 }
 
 /*Remove the anchor decoration*/
 header a {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 /*Header 1 */
@@ -37,13 +38,6 @@ h1 {
     text-align: center;
 }
 
-/*Hero image seven chakras*/
-#hero-seven-chakras {
-    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
-    height: 400px;
-    width: 100%;
-}
-
 /*Navigation*/
 .top-navigation {
     background-color: black;
@@ -51,7 +45,6 @@ h1 {
     position: fixed;
     width: 100%;
     position: sticky;
-
 }
 
 /*Anchor elements navigation*/
@@ -64,7 +57,6 @@ h1 {
     display: block;
     padding: 14px 16px;
     border-right: 2px solid grey;
-
 }
 
 /*Hover navigation*/
@@ -83,34 +75,53 @@ h1 {
 }
 
 /*Main*/
-Main {
-    .seven-chakras-container {
-        left: 10px;
-    }
 
-    /*Chakra header*/
-    .chakra-header {
-        font-family: 'montserrat', sans-serif;
-    }
+/*Hero image seven chakras*/
+#hero-seven-chakras {
+    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+}
 
-    /* seven chakras icon image sizing*/
-    .seven-chakras-container img{
-        height: 40px;
-        width: 40px;
-    }
+/*Chakra header*/
+.chakra-header {
+    font-family: 'montserrat', sans-serif;
+}
 
-     /* seven chakras icon image aligning*/
-    .seven-chakras-container h3, .seven-chakras-container img{
-        display: inline-block;
-        vertical-align: middle;
-    }
+.seven-chakras-container {
+    width: 80%;
+    padding-left: 10px;
+}
 
-    .mantra {
-        font-family: 'lora', sans-serif;
-    }
+/* seven chakras icon image sizing*/
+.seven-chakras-container img {
+    height: 40px;
+    width: 40px;
+}
+
+/* seven chakras icon image aligning*/
+.seven-chakras-container h3,
+.seven-chakras-container img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mantra {
+    font-family: 'lora', sans-serif;
+}
+
+
+
+.seven-chakras-container table th {
+    text-align: left;
+}
+
+.seven-chakras-container table td {
+    width: 150px;
 }
 
 /*Footer*/
 footer {
-    background-color: rgb(108, 19, 19);
+    background-color: black;
+    height: 40px;
 }
