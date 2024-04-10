@@ -18,6 +18,7 @@ body {
 
 /* General Header*/
 header {
+    position: fixed;
     font-family: 'montserat', sans-serif;
     box-shadow: 0 2px 3px rgb(108, 19, 19);
     width: 100%;
@@ -39,8 +40,10 @@ header a {
     background-color: black;
     box-shadow: 0 2px 3px rgb(108, 19, 19);
     overflow: hidden;
-    position: fixed;
-    width: 50%;
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 100%;
 }
 
 /*Anchor elements navigation*/
@@ -51,7 +54,22 @@ header a {
     font-family: 'montserat', sans-serif;
     display: block;
     padding: 14px 16px;
-    border-bottom: 1px solid rgb(108, 19, 19);
+    border-top: 1px solid papayawhip;
+    border-bottom: 1px solid papayawhip;
+}
+
+/*Show navigation items when the togle nav is selected*/
+#toggle-nav:checked~.top-navigation {
+    display: block;
+}
+
+#toggle-nav {
+    display: none;
+}
+
+.toggle-nav-label {
+    font-size: 2rem;
+    color: antiquewhite;
 }
 
 /*Hover navigation*/
@@ -68,7 +86,6 @@ header a {
 h1 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
-    text-align: center;
 }
 
 /*Header 2 */
@@ -104,7 +121,7 @@ h3 {
 #hero-about-chakras,
 #hero-seven-chakras,
 #hero-balance-chakras {
-    height: 400px;
+    height: 200px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -238,26 +255,40 @@ footer a {
 @media screen and (min-width: 768px) {
 
     header {
-        position: fixed;
         width: 100%;
     }
 
     /*Navigation*/
     .top-navigation {
+        display: block;
         width: 100%;
-        top:37px;
-        
+        top: 37px;
     }
 
     .top-navigation a {
         float: left;
-        border-right: 2px solid grey;
+        border-right: 2px solid papayawhip;
+        border-top: none;
+        border-bottom: none;
     }
 
-/*Align navigation items horizontally*/
-.top-navigation li {
-    display: inline;
+    /*Align navigation items horizontally*/
+    .top-navigation li {
+        display: inline;
+    }
+
+    .toggle-nav-label {
+        display: none;
+    }
+
+    /*Hero image styling*/
+    #hero-about-chakras,
+    #hero-seven-chakras,
+    #hero-balance-chakras {
+        height: 400px;
+    }
 }
 
+/*Laptop - 992 pixels and up*/
 
-}
+/*Desktop - 1200 pixels and up*/
