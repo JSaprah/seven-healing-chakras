@@ -18,17 +18,50 @@ body {
 
 /* General Header*/
 header {
-    position: fixed;
     font-family: 'montserat', sans-serif;
-    box-shadow: 0 2px 3px pink;
+    box-shadow: 0 2px 3px rgb(108, 19, 19);
     width: 100%;
     background-color: rgb(108, 19, 19);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /*Remove the anchor decoration from the header*/
 header a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+/*Navigation*/
+.top-navigation {
+    align-items: right;
+    background-color: black;
+    box-shadow: 0 2px 3px rgb(108, 19, 19);
+    overflow: hidden;
+    position: fixed;
+    width: 50%;
+}
+
+/*Anchor elements navigation*/
+.top-navigation a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'montserat', sans-serif;
+    display: block;
+    padding: 14px 16px;
+    border-bottom: 1px solid rgb(108, 19, 19);
+}
+
+/*Hover navigation*/
+.top-navigation a:hover {
+    background-color: rgba(152, 93, 93, 0.5);
+}
+
+/*Highlight activated navigation tab*/
+.active {
+    background-color: rgb(108, 19, 19);
 }
 
 /*Header 1 */
@@ -38,51 +71,16 @@ h1 {
     text-align: center;
 }
 
-/*Header 1 */
+/*Header 2 */
 h2 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
 }
 
-/*Header 1 */
+/*Header 3 */
 h3 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
-}
-/*Navigation*/
-.top-navigation {
-    background-color: black;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    position: sticky;
-}
-
-/*Anchor elements navigation*/
-.top-navigation a {
-    float: left;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'montserat', sans-serif;
-    display: block;
-    padding: 14px 16px;
-    border-right: 2px solid grey;
-}
-
-/*Hover navigation*/
-.top-navigation a:hover {
-    background-color: rgba(152, 93, 93, 0.5);
-}
-
-/*Align navigation items horizontally*/
-.top-navigation li {
-    display: inline;
-}
-
-/*Highlight activated navigation tab*/
-.active {
-    background-color: rgb(108, 19, 19);
 }
 
 /*Main*/
@@ -91,67 +89,77 @@ h3 {
 #hero-about-chakras {
     background: url(/assets/images/Sitting\ chakra.png) no-repeat center center/cover;
 }
+
 /*Hero image seven chakras*/
 #hero-seven-chakras {
-    background: url(/assets/images/seven-chakras.jpg) no-repeat center center/cover;  
+    background: url(/assets/images/seven-chakras.jpg) no-repeat center center/cover;
 }
 
 /*Hero image seven chakras*/
 #hero-balance-chakras {
-    background: url(/assets/images/seven-chakras.jpg) no-repeat center center/cover;  
+    background: url(/assets/images/seven-chakras.jpg) no-repeat center center/cover;
 }
 
 /*Hero image styling*/
-#hero-about-chakras, #hero-seven-chakras, #hero-balance-chakras {
+#hero-about-chakras,
+#hero-seven-chakras,
+#hero-balance-chakras {
     height: 400px;
-    max-width: 100%; 
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     object-fit: cover;
 }
+
 /*Chakra header*/
 .chakra-header {
     font-family: 'montserrat', sans-serif;
 }
 
-.seven-chakras-container, .about-chakras-container, .balancing-container{
+.seven-chakras-container,
+.about-chakras-container,
+.balancing-container {
     padding-left: 25px;
     padding-right: 25px;
 }
+
 /*border colour around the div for each of the seven chakras*/
-#root{
+#root {
     border: 1px solid rgba(255, 0, 0, 0.5);
-    padding:20px;
+    padding: 20px;
 }
 
-#sacral{
+#sacral {
     border: 1px solid rgba(255, 165, 0, 0.5);
-    padding:20px;
+    padding: 20px;
 }
 
-#solar-plexus{
+#solar-plexus {
     border: 1px solid rgba(255, 255, 0, 0.5);
-    padding:20px;
+    padding: 20px;
 }
-#heart{
+
+#heart {
     border: 1px solid rgba(0, 255, 0, 0.5);
-    padding:20px;
+    padding: 20px;
 }
 
-#throat{
+#throat {
     border: 1px solid rgba(48, 213, 200, 0.5);
-    padding:20px;
+    padding: 20px;
 }
 
-#third-eye{
+#third-eye {
     border: 1px solid rgba(0, 0, 139, 0.5);
-    padding:20px;
+    padding: 20px;
 }
-#crown{
+
+#crown {
     border: 1px solid rgba(143, 0, 255, 0.5);
-    padding:20px;
+    padding: 20px;
 }
+
 /* seven chakras icon image sizing*/
 .seven-chakras-container img {
     height: 40px;
@@ -160,8 +168,7 @@ h3 {
 
 /* seven chakras icon image aligning*/
 .seven-chakras-container h3,
-.seven-chakras-container img 
-{
+.seven-chakras-container img {
     display: inline-block;
     vertical-align: middle;
 }
@@ -171,35 +178,38 @@ h3 {
     font-family: 'lora', serif;
 }
 
-#root .mantra{
+#root .mantra {
     background-color: rgba(255, 0, 0, 0.2);
 }
 
-#sacral .mantra{
+#sacral .mantra {
     background-color: rgba(255, 165, 0, 0.2);
 }
 
-#solar-plexus .mantra{
+#solar-plexus .mantra {
     background-color: rgba(255, 255, 0, 0.2);
 }
-#heart .mantra{
+
+#heart .mantra {
     background-color: rgba(0, 255, 0, 0.2);
 }
 
-#throat .mantra{
+#throat .mantra {
     background-color: rgba(48, 213, 200, 0.2);
 }
 
-#third-eye .mantra{
+#third-eye .mantra {
     background-color: rgba(0, 0, 139, 0.2);
 }
-#crown .mantra{
+
+#crown .mantra {
     background-color: rgba(143, 0, 255, 0.2);
 }
 
-.seven-chakras-container table{
-    margin:10px;
+.seven-chakras-container table {
+    margin: 10px;
 }
+
 .seven-chakras-container table th {
     text-align: left;
 }
@@ -210,7 +220,7 @@ h3 {
 
 /*Footer*/
 footer {
-    box-shadow: 0 -2px 3px pink;
+    box-shadow: 0 -2px 3px rgb(108, 19, 19);
     background-color: black;
     height: 40px;
 }
@@ -219,4 +229,35 @@ footer {
 footer a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+
+/*Media queries */
+
+/*Tablets - 768 pixels and up*/
+@media screen and (min-width: 768px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    /*Navigation*/
+    .top-navigation {
+        width: 100%;
+        top:37px;
+        
+    }
+
+    .top-navigation a {
+        float: left;
+        border-right: 2px solid grey;
+    }
+
+/*Align navigation items horizontally*/
+.top-navigation li {
+    display: inline;
+}
+
+
 }
