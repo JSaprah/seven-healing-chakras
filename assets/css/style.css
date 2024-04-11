@@ -102,21 +102,21 @@ h3 {
     text-transform: uppercase;
 }
 
-/*Main*/
+/*Hero images*/
 
 /*Hero image seven chakras*/
 #hero-about-chakras {
-    background: url(../assets/images/Sitting\ chakra.png) no-repeat center center/cover;
+    background: url(../images/sitting-chakra.png) no-repeat center center/cover;
 }
 
 /*Hero image seven chakras*/
 #hero-seven-chakras {
-    background: url(../assets/images/seven-chakras.jpg) no-repeat center center/cover;
+    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
 }
 
 /*Hero image seven chakras*/
 #hero-balance-chakras {
-    background: url(../assets/images/seven-chakras.jpg) no-repeat center center/cover;
+    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
 }
 
 /*Hero image styling*/
@@ -130,6 +130,8 @@ h3 {
     justify-content: center;
     object-fit: cover;
 }
+
+/*Main*/
 
 /*Chakra header*/
 .chakra-header {
