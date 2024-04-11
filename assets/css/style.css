@@ -124,7 +124,7 @@ h3 {
 #hero-seven-chakras,
 #hero-balance-chakras {
     height: 200px;
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,6 +138,21 @@ h3 {
     font-family: 'montserrat', sans-serif;
 }
 
+/*Generic styles to add padding and avoid br*/
+
+.line-break-bottom {
+    padding-bottom: 10px;
+}
+
+.line-break-top {
+    padding-top: 10px;
+}
+
+.line-break-top-bottom {
+    padding: 0.875rem 0;
+}
+
+/*Padding left and padding right*/
 .seven-chakras-container,
 .about-chakras-container,
 .balancing-container {
@@ -244,6 +259,13 @@ footer {
     box-shadow: 0 -2px 3px rgb(108, 19, 19);
     background-color: black;
     height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media-network {
+    display: flex;
+    flex-direction: row;
 }
 
 /*Remove the anchor decoration from the footer*/
