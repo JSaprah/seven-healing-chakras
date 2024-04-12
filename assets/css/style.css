@@ -13,7 +13,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: papayawhip;
+    background-color: rgb(255, 239, 213);
+    list-style-type: none;
 }
 
 /* General Header*/
@@ -32,13 +33,13 @@ header {
 /*Remove the anchor decoration from the header*/
 header a {
     text-decoration: none;
-    color: antiquewhite;
+    color:rgb(250, 235, 215);
 }
 
 /*Navigation*/
 .top-navigation {
     align-items: right;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 2px 3px rgb(108, 19, 19);
     overflow: hidden;
     position: absolute;
@@ -55,8 +56,8 @@ header a {
     font-family: 'montserat', sans-serif;
     display: block;
     padding: 14px 16px;
-    border-top: 1px solid papayawhip;
-    border-bottom: 1px solid papayawhip;
+    border-top: 1px solid rgb(255, 239, 213);
+    border-bottom: 1px solid rgb(255, 239, 213);
 }
 
 /*Show navigation items when the togle nav is selected*/
@@ -70,7 +71,7 @@ header a {
 
 .toggle-nav-label {
     font-size: 2rem;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     margin-right: 10px;
 }
 
@@ -160,6 +161,7 @@ h3 {
     padding-right: 25px;
 }
 
+/* Seven chakras page*/
 /*border colour around the div for each of the seven chakras*/
 #root {
     border: 1px solid rgba(255, 0, 0, 0.5);
@@ -254,24 +256,45 @@ h3 {
     width: 150px;
 }
 
+/*Balancing page*/
+.techniques{
+    padding:20px;
+    background-color:  rgb(108, 19, 19,10%);
+    text-align: center;
+}
+
+.techniques h3, .techniques i{
+    color:  rgb(108, 19, 19);
+}
+
+.techniques i{
+   font-size: 200%;
+   margin:20px;
+}
+
+.eight-techniques{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*Footer*/
 footer {
     box-shadow: 0 -2px 3px rgb(108, 19, 19);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 40px;
-    display: flex;
-    flex-direction: row;
 }
 
 #social-media-network {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
 }
 
 /*Remove the anchor decoration from the footer*/
 footer a {
-    text-decoration: none;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
+    font-size: 110%;
 }
 
 /*Media queries */
@@ -313,6 +336,12 @@ footer a {
     #hero-balance-chakras {
         height: 400px;
     }
+
+
+/*Balancing page*/
+.techniques{
+    width: 50%;
+}
 }
 
 /*Laptop - 992 pixels and up*/
