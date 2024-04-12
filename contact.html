@@ -24,62 +24,61 @@
     <!--Header-->
     <header>
         <!--Header text and clickable to the about page-->
-        <a href="index.html">
+        <a href="index.html" aria-label="Takes you back to the about page">
             <h1>The seven healing chakras</h1>
         </a>
         <!--Navigation-->
-        <!--toggle-->
+        <!--Toggle-->
         <input type="checkbox" id="toggle-nav">
         <label for="toggle-nav" class="toggle-nav-label"><i class="fa-solid fa-bars"
                 style="color: #ffefd5;"></i></label>
 
-        <nav class="top-navigation">
+        <div class="top-navigation">
             <ul>
-                <li><a href="index.html" class="active">About</a></li>
+                <li><a href="index.html">About</a></li>
                 <li><a href="seven-chakras.html">Seven chakras</a></li>
                 <li><a href="balance-chakras.html">Balancing</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
-        </nav>
-
+        </div>
     </header>
 
     <!--Hero image-->
-    <div id="hero-about-chakras"></div>
+    <div id="hero-seven-chakras"></div>
 
     <!--Main content-->
+    <!--Section seven chakras main content-->
+    <main class="contact-container">
+            <h2>Get in touch!</h2>
+            <section>
+            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
 
-    <!--Section about chakras main content-->
-    <main class="about-chakras-container">
+                <!--First Name-->
+                <label for="first-name" class="line-break-top-bottom">First Name</label>
+                <input type="text" name="first-name" id="first-name" required>
 
-        <section class="about-chakras">
-            <h2>About chakras</h2>
-            <p class="line-break-top-bottom">Chakra is a word in Sanskrit, an ancient language from India, that means
-                “wheel” or “cycle”. Chakras are
-                seen as spinning wheels or circles that flows energy through your body. When your chakras are in
-                balance, life energy is able to move through them and connect you to the world around you. </p>
-        </section>
-        <section class="origin-chakras">
-            <h2>Origin chakras</h2>
-            <p class="line-break-top-bottom">Beliefs about chakras started in India, at least 1,000 years ago, as part
-                of Hindu
-                and Buddhist spiritual
-                traditions. Some people think chakra beliefs are even older, going back to 1500 BCE or further. Chakras
-                are mentioned in ancient Hindu spiritual books like the Vedas and the Yoga Upanishads. People probably
-                believed in chakras before the information was ever written down.</p>
-            <p class="line-break-bottom">
-                In India and other parts of the East, beliefs about chakras were included in many systems of healing and
-                spirituality, including Ayurveda, yoga, Hinduism, Buddhism, and others. These systems developed around
-                the idea of a life energy that flows through our bodies and the universe. The use of the chakras is
-                thought to help connect with this life energy in different ways. For example, yoga uses breath and
-                movement to bring energy into the body, and move it through the chakras. Ayurveda uses herbal medicine,
-                meditation, and other practices to open the chakras and balance energy.
-            </p>
-            <p>
-                Chakras became popular in the West beginning in the 1960s-1970s as part of “alternative” spiritual
-                movements. Western traditions that sometimes use chakras include psychology and complementary medicine,
-                as well as spiritual practices.
-            </p>
+                <!--Last Name-->
+                <label for="last-name" class="line-break-top-bottom">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required>
+
+                <!--Email-->
+                <label for="email" class="line-break-top-bottom">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <!--dropdown for chakras-->
+                <label for="chakra-option" class="line-break-top-bottom">I would like to know more about the chakra:</label>
+                <select id="chakra-option" name="chakra-option">
+                    <option value="root">Root</option>
+                    <option value="sacral">Sacral</option>
+                    <option value="solar-plexus">Solar Plexus</option>
+                    <option value="heart">Heart</option>
+                    <option value="throat">Throat</option>
+                    <option value="third-eye">Third Eye</option>
+                    <option value="crown">Crown</option>
+                </select>
+                <!--Button-->
+                <button type="submit" class="submit">Submit</button>
+            </form>
         </section>
     </main>
 
