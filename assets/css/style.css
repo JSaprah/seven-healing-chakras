@@ -26,7 +26,6 @@ header {
     background-color: rgb(108, 19, 19);
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     font-size: 12px;
 }
 
@@ -89,7 +88,7 @@ header a {
 h1 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
-}
+    }
 
 /*Header 2 */
 h2 {
@@ -100,7 +99,7 @@ h2 {
 /*Header 3 */
 h3 {
     font-family: 'montserat', sans-serif;
-    text-transform: uppercase;
+   
 }
 
 /*Hero images*/
@@ -153,12 +152,11 @@ h3 {
     padding: 0.875rem 0;
 }
 
-/*Padding left and padding right*/
+/*Padding left, right, top and bottom for around the main containers*/
 .seven-chakras-container,
 .about-chakras-container,
 .balancing-container {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 25px 25px;
 }
 
 /* Seven chakras page*/
@@ -336,7 +334,6 @@ footer a {
     #hero-balance-chakras {
         height: 400px;
     }
-
 
 /*Balancing page*/
 .techniques{
