@@ -83,6 +83,17 @@ header a {
     background-color: rgb(108, 19, 19);
 }
 
+/* hamburger-menu wave error*/
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
 /*Font styles for all headers and paragraph*/
 /*Header 1 used at the top */
 h1 {
