@@ -47,39 +47,49 @@
     <div id="hero-seven-chakras"></div>
 
     <!--Main content-->
-    <!--Section seven chakras main content-->
+    <!--Contact main content-->
     <main class="contact-container">
-            <h2>Get in touch!</h2>
-            <section>
-            <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
 
-                <!--First Name-->
-                <label for="first-name" class="line-break-top-bottom">First Name</label>
-                <input type="text" name="first-name" id="first-name" required>
+        <!--Contact form-->
+<section id="form-information">
+        <i class="fa-solid fa-envelope"></i>
+        <h2 class="line-break-top">Get in touch!</h2>
+        <p class="line-break-top-bottom">Fill in the form below and we will contact you within five working days</p>
+    </section>
 
-                <!--Last Name-->
-                <label for="last-name" class="line-break-top-bottom">Last Name</label>
-                <input type="text" name="last-name" id="last-name" required>
+        <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
 
-                <!--Email-->
-                <label for="email" class="line-break-top-bottom">Email</label>
-                <input type="email" name="email" id="email" required>
+            <!--First Name-->
+            <label for="first-name" class="line-break-top form-mandatory-star">First Name</label>
+            <input type="text" name="first-name" required>
 
-                <!--dropdown for chakras-->
-                <label for="chakra-option" class="line-break-top-bottom">I would like to know more about the chakra:</label>
-                <select id="chakra-option" name="chakra-option">
-                    <option value="root">Root</option>
-                    <option value="sacral">Sacral</option>
-                    <option value="solar-plexus">Solar Plexus</option>
-                    <option value="heart">Heart</option>
-                    <option value="throat">Throat</option>
-                    <option value="third-eye">Third Eye</option>
-                    <option value="crown">Crown</option>
-                </select>
-                <!--Button-->
-                <button type="submit" class="submit">Submit</button>
-            </form>
-        </section>
+            <!--Last Name-->
+            <label for="last-name" class="line-break-top form-mandatory-star">Last Name</label>
+            <input type="text" name="last-name" required>
+
+            <!--Email-->
+            <label for="email" class="line-break-top form-mandatory-star">Email</label>
+            <input type="email" name="email" required>
+
+            <!--dropdown for chakras-->
+            <label for="chakra-selection" class="line-break-top">I would like to know more about the
+                chakra:</label>
+            <select id="chakra-option" name="chakra-selection" required>
+                <option value="select-your-option" disabled selected>Please select</option>
+                <option value="root">Root</option>
+                <option value="sacral">Sacral</option>
+                <option value="solar-plexus">Solar Plexus</option>
+                <option value="heart">Heart</option>
+                <option value="throat">Throat</option>
+                <option value="third-eye">Third Eye</option>
+                <option value="crown">Crown</option>
+            </select>
+
+            <!--Button-->
+            <div class="line-break-top" id="submit-button">
+                <input type="submit" value="Submit" id="form-submit-button">
+            </div>
+        </form>
     </main>
 
     <!--Footer-->

@@ -132,8 +132,8 @@ h3 {
 }
 
 /*Main*/
-main{
-   flex: 1 0 auto;
+main {
+    flex: 1 0 auto;
 }
 
 /*Chakra header*/
@@ -152,7 +152,8 @@ main{
 }
 
 .line-break-top-bottom {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /*Padding left, right, top and bottom for around the main containers*/
@@ -281,9 +282,40 @@ main{
 }
 
 /*Contact page*/
-.contact-form {
+#contact-form {
     display: flex;
     flex-direction: column;
+    background-color: rgb(108, 19, 19, 20%);
+    padding: 25px 50px;
+    border: 2px solid rgb(108, 19, 19);
+}
+
+#form-information {
+    color: rgb(108, 19, 19);
+    text-align: center;
+}
+
+#form-information i {
+    font-size: 200%;
+}
+
+#submit-button{
+    text-align: center;
+}
+
+#form-submit-button {
+    color: rgb(250, 235, 215);
+    background-color: rgb(108, 19, 19);
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+
+.form-mandatory-star:after {
+    content: "*";
+    color: red;
 }
 
 /*Footer*/
