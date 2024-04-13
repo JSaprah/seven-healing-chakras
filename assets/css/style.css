@@ -84,26 +84,41 @@ header a {
     background-color: rgb(108, 19, 19);
 }
 
-/*Header 1 */
+/*Font styles for all headers and paragraph*/
+/*Header 1 used at the top */
 h1 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
 }
 
-/*Header 2 */
+/*Header 2 used as the headers for the different sections */
 h2 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
+    color: rgb(108, 19, 19);
+    font-weight: 700;
 }
 
-/*Header 3 */
+/*Header 3 used for sub sections */
 h3 {
-    font-family: 'montserat', sans-serif;
+    font-family: 'lora', sans-serif;
+    font-weight: 700;
+}
 
+/*Header 4 used for mantras */
+h4 {
+    font-family: 'hind madurai', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/*Papragraph*/
+p{
+    font-family: 'hind madurai', sans-serif;
+    font-weight: 400;
 }
 
 /*Hero images*/
-
 /*Hero image seven chakras*/
 #hero-about-chakras {
     background: url(../images/sitting-chakra.png) no-repeat center center/cover;
@@ -116,13 +131,19 @@ h3 {
 
 /*Hero image seven chakras*/
 #hero-balance-chakras {
-    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
+    background: url(../images/balancing-nature.jpg) no-repeat center center/cover;
+}
+
+/*Hero image seven chakras*/
+#hero-contact-chakras {
+    background: url(../images/relaxation-contact.jpg) no-repeat center center/cover;
 }
 
 /*Hero image styling*/
 #hero-about-chakras,
 #hero-seven-chakras,
-#hero-balance-chakras {
+#hero-balance-chakras,
+#hero-contact-chakras {
     height: 200px;
     width: 100%;
     display: flex;
@@ -134,11 +155,6 @@ h3 {
 /*Main*/
 main {
     flex: 1 0 auto;
-}
-
-/*Chakra header*/
-.chakra-header {
-    font-family: 'montserrat', sans-serif;
 }
 
 /*Generic styles to add padding and avoid br*/
@@ -376,7 +392,8 @@ footer a {
     /*Hero image styling*/
     #hero-about-chakras,
     #hero-seven-chakras,
-    #hero-balance-chakras {
+    #hero-balance-chakras,
+    #hero-contact-chakras {
         height: 400px;
     }
 
@@ -385,7 +402,3 @@ footer a {
         width: 50%;
     }
 }
-
-/*Laptop - 992 pixels and up*/
-
-/*Desktop - 1200 pixels and up*/
