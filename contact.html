@@ -30,8 +30,10 @@
         <!--Navigation-->
         <!--Toggle-->
         <input type="checkbox" id="toggle-nav">
-        <label for="toggle-nav" class="toggle-nav-label"><i class="fa-solid fa-bars"
-                style="color: #ffefd5;"></i></label>
+        <label for="toggle-nav" class="toggle-nav-label"><i class="fa-solid fa-bars" style="color: #ffefd5;"></i>
+            <span class="sr-only"> "Click to toggle mobile menu"
+            </span>
+        </label>
 
         <div class="top-navigation">
             <ul>
@@ -51,30 +53,30 @@
     <main class="contact-container">
 
         <!--Contact form-->
-<section id="form-information">
-        <i class="fa-solid fa-envelope"></i>
-        <h2 class="line-break-top">Get in touch!</h2>
-        <p class="line-break-top-bottom">Fill in the form below and we will contact you within five working days</p>
-    </section>
+        <section id="form-information">
+            <i class="fa-solid fa-envelope"></i>
+            <h2 class="line-break-top">Get in touch!</h2>
+            <p class="line-break-top-bottom">Fill in the form below and we will contact you within five working days</p>
+        </section>
 
         <form id="contact-form" action="https://formdump.codeinstitute.net" method="POST">
 
             <!--First Name-->
             <label for="first-name" class="line-break-top form-mandatory-star">First Name</label>
-            <input type="text" name="first-name" required>
+            <input id="first-name" type="text" name="first-name" required>
 
             <!--Last Name-->
             <label for="last-name" class="line-break-top form-mandatory-star">Last Name</label>
-            <input type="text" name="last-name" required>
+            <input id="last-name" type="text" name="last-name" required>
 
             <!--Email-->
             <label for="email" class="line-break-top form-mandatory-star">Email</label>
-            <input type="email" name="email" required>
+            <input id="email" type="email" name="email" required>
 
             <!--dropdown for chakras-->
             <label for="chakra-selection" class="line-break-top">I would like to know more about the
                 chakra:</label>
-            <select id="chakra-option" name="chakra-selection" required>
+            <select id="chakra-selection" name="chakra-selection" required>
                 <option value="select-your-option" disabled selected>Please select</option>
                 <option value="root">Root</option>
                 <option value="sacral">Sacral</option>
