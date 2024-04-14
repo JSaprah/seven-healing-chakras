@@ -26,7 +26,7 @@ header {
     background-color: rgb(108, 19, 19);
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+
 }
 
 /*Remove the anchor decoration from the header*/
@@ -89,15 +89,18 @@ header a {
     height: 1px;
     overflow: hidden;
     position: absolute;
-    white-space: nowrap; 
+    white-space: nowrap;
     width: 1px;
-  }
+}
 
 /*Font styles for all headers and paragraph*/
 /*Header 1 used at the top */
 h1 {
     font-family: 'montserat', sans-serif;
     text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
 }
 
 /*Header 2 used as the headers for the different sections */
@@ -106,12 +109,14 @@ h2 {
     text-transform: uppercase;
     color: rgb(108, 19, 19);
     font-weight: 700;
+    font-size: 15px;
 }
 
 /*Header 3 used for sub sections */
 h3 {
     font-family: 'lora', sans-serif;
     font-weight: 700;
+    font-size: 14px;
 }
 
 /*Header 4 used for mantras */
@@ -119,33 +124,35 @@ h4 {
     font-family: 'hind madurai', serif;
     font-style: italic;
     font-weight: 700;
+    font-size: 13px;
 }
 
 /*Papragraph*/
-p{
+p {
     font-family: 'hind madurai', sans-serif;
     font-weight: 400;
+    font-size: 12px;
 }
 
 /*Hero images*/
-/*Hero image seven chakras*/
+/*Hero image about chakras*/
 #hero-about-chakras {
-    background: url(../images/sitting-chakra.png) no-repeat center center/cover;
+    background: url(../images/about-chakras-hero-small.webp) no-repeat center center/cover;
 }
 
 /*Hero image seven chakras*/
 #hero-seven-chakras {
-    background: url(../images/seven-chakras.jpg) no-repeat center center/cover;
+    background: url(../images/seven-chakras-hero-small.webp) no-repeat center center/cover;
 }
 
-/*Hero image seven chakras*/
+/*Hero image balance chakras*/
 #hero-balance-chakras {
-    background: url(../images/balancing-nature.jpg) no-repeat center center/cover;
+    background: url(../images/balancing-chakra-hero-small.webp) no-repeat center center/cover;
 }
 
-/*Hero image seven chakras*/
+/*Hero image contact chakras*/
 #hero-contact-chakras {
-    background: url(../images/relaxation-contact.jpg) no-repeat center center/cover;
+    background: url(../images/contact-hero-small.webp) no-repeat center center/cover;
 }
 
 /*Hero image styling*/
@@ -154,11 +161,11 @@ p{
 #hero-balance-chakras,
 #hero-contact-chakras {
     height: 200px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     object-fit: cover;
+    width: 100%;
 }
 
 /*Main*/
@@ -187,13 +194,13 @@ main {
 .seven-chakras-container,
 .about-chakras-container,
 .balancing-container,
-.contact-container {
+.contact-container,
+.contact-feedback-container {
     padding: 25px 25px;
 }
 
 .chakra-seven {
-
-margin: 10px;
+    margin: 10px;
 }
 
 /* Seven chakras page*/
@@ -330,7 +337,7 @@ margin: 10px;
     font-weight: 700;
 }
 
-#submit-button{
+#submit-button {
     text-align: center;
     font-family: 'hind madurai', sans-serif;
     font-weight: 700;
@@ -349,6 +356,16 @@ margin: 10px;
 .form-mandatory-star:after {
     content: "*";
     color: red;
+}
+
+/*Contact feedback page*/
+.contact-feedback-container {
+    text-align: center;
+}
+
+.contact-feedback-container i {
+    font-size: 300%;
+    color: rgb(0, 128, 0)
 }
 
 /*Footer*/
@@ -378,9 +395,61 @@ footer a {
 /*Tablets - 768 pixels and up*/
 @media screen and (min-width: 768px) {
 
+    /*Hero images*/
+    /*Hero image about chakras*/
+    #hero-about-chakras {
+        background: url(../images/about-chakras-hero-large.webp) no-repeat center center/cover;
+    }
+
+    /*Hero image seven chakras*/
+    #hero-seven-chakras {
+        background: url(../images/seven-chakras-hero-large.webp) no-repeat center center/cover;
+    }
+
+    /*Hero image balance chakras*/
+#hero-balance-chakras {
+    background: url(../images/balancing-chakra-hero-large.webp) no-repeat center center/cover;
+}
+
+    /*Hero image contact chakras*/
+    #hero-contact-chakras {
+        background: url(../images/contact-hero-large.webp) no-repeat center center/cover;
+    }
+
+    /*Hero image styling*/
+    #hero-about-chakras,
+    #hero-seven-chakras,
+    #hero-balance-chakras,
+    #hero-contact-chakras {
+        height: 400px;
+    }
+
+    /*Header*/
     header {
         width: 100%;
         font-size: inherit;
+    }
+
+    /*Font styles for all headers and paragraph*/
+    /*Header 1 used at the top */
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
     }
 
     /*Navigation*/
@@ -406,13 +475,6 @@ footer a {
         display: none;
     }
 
-    /*Hero image styling*/
-    #hero-about-chakras,
-    #hero-seven-chakras,
-    #hero-balance-chakras,
-    #hero-contact-chakras {
-        height: 400px;
-    }
 
     /*Balancing page*/
     .techniques {
