@@ -105,7 +105,7 @@ h1 {
 
 /*Header 2 used as the headers for the different sections */
 h2 {
-    font-family: 'montserat', sans-serif;
+    font-family: 'lora', sans-serif;
     text-transform: uppercase;
     color: rgb(108, 19, 19);
     font-weight: 700;
@@ -121,7 +121,7 @@ h3 {
 
 /*Header 4 used for mantras */
 h4 {
-    font-family: 'hind madurai', serif;
+    font-family: 'lora', serif;
     font-style: italic;
     font-weight: 700;
     font-size: 13px;
@@ -371,7 +371,7 @@ main {
 
 .form-mandatory-star:after {
     content: "*";
-    color: red;
+    color: rgb(255,0,0);
 }
 
 /*Contact feedback page*/
@@ -486,7 +486,7 @@ footer a {
 
     .top-navigation a {
         float: left;
-        border-right: 2px solid papayawhip;
+        border-right: 2px solid rgb(255, 239, 213);
         border-top: none;
         border-bottom: none;
     }
