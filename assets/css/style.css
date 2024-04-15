@@ -199,12 +199,10 @@ main {
     padding: 25px 25px;
 }
 
-.chakra-seven {
-    margin: 10px;
-}
-
 /* Seven chakras page*/
+
 /*border colour around the div for each of the seven chakras*/
+
 #root {
     border: 1px solid rgba(255, 0, 0, 0.5);
 }
@@ -279,8 +277,16 @@ main {
     background-color: rgba(143, 0, 255, 0.2);
 }
 
-.seven-chakras-container table {
+/* text aligning within the border */
+/*margin to avoid aligning of the mantra text direct to the borders*/
+.chakra-seven {
     margin: 10px;
+}
+
+/*margin to avoid aligning of the mantra text direct to the border left and top*/
+.seven-chakras-container img {
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .seven-chakras-container table th {
@@ -289,6 +295,16 @@ main {
 
 .seven-chakras-container table td {
     width: 150px;
+}
+
+.seven-chakras-container table tr{
+    font-family: 'hind madurai', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.seven-chakras-container table th{
+    font-weight: 700px;
+    font-size: 14px;
 }
 
 /*Balancing page*/
@@ -392,7 +408,16 @@ footer a {
 
 /*Media queries */
 
-/*Tablets - 768 pixels and up*/
+/*400 pixels and up*/
+@media screen and (max-width: 400px) {
+    tr {
+      display: inline-flex;
+      flex-direction: column;
+      width:40%;
+    }
+  }
+
+/*768 pixels and up*/
 @media screen and (min-width: 768px) {
 
     /*Hero images*/
