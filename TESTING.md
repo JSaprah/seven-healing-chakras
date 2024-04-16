@@ -4,7 +4,7 @@
 
 Several methods have been used for continuous improvement during the project as well as test post finishing the project. The first part of this document covers the issues faced and solved during the project. The second part is about the testing after.
 
-## **During the project**
+## **Manual testing**
 
 The following manual methods were used for testing:
 
@@ -27,13 +27,53 @@ The following manual methods were used for testing:
 | 14/04-2024   | Improvement | When submit form I was using a post method. Mentor suggested me a different approach and sending the user to a different page on the same website. Implemented the changes. |
 
 
-## **Post project**
+## **Testing with validators**
 
 For this part the following validators were used:
 1. WAVE - Web Accesibility Evaluation Tools - https://wave.webaim.org/
 2. W3C - Markup Validation Service - https://validator.w3.org/
 3. Lighthouse - via Developers Tools
 
+### **Wave**
+
+This resulted in 5 errors which were fixed:
+
+- Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.
+- Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.
+
+### **W3C**
+
+Two errors, two sub-errors and one warning was found using this validator:
+
+1. 
+Issue: Stylsheet tag
+Place: On all pages.
+Description: 
+Issues with the stylsheet tag which caused three errors. I mentioned the tags stylesheet in. The stylesheet tags are used when you want the styling content in the HTML file. This would go above the body element. In this case I have a separate file for css. Removing the stylesheet tags made the three errors dissapear.
+
+This caused in total three errors.
+
+Error image: 
+
+![W3C stylesheet error](docs//w3c-stylesheet-tag-error.png)
+
+2. 
+Issue: Closing tag for icon
+Place: On all pages.
+Description: 
+There was an additional closing tag in the Youtube icon. I deleted this tag and the error was solved.
+
+Error image:
+
+![W3C Closing tag error](docs/screenshots/w3c-closing-tag-icon-error.png)
+
+3. 
+Issue: Section without header
+Place: Balancing page.
+Description: 
+Warning of a section without header. After double checking this it was on the class “eight techniques” which covers the eight methods. As this element does not need any headings and was only meant to divide the content I changed the section tags to div tags. This solved the problem.
+
+![W3C Closing tag error](docs/screenshots/w3c-section-lacks-heading-warning.png)
 
 
 
