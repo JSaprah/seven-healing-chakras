@@ -27,6 +27,15 @@ The following manual methods were used for testing:
 | 14/04-2024   | Improvement | When submit form I was using a post method. Mentor suggested me a different approach and sending the user to a different page on the same website. Implemented the changes. |
 
 
+## **Post project**
+
+For this part the following validators were used:
+1. WAVE - Web Accesibility Evaluation Tools - https://wave.webaim.org/
+2. W3C - Markup Validation Service - https://validator.w3.org/
+3. Lighthouse - via Developers Tools
+
+
+
 
 
 
