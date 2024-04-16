@@ -233,7 +233,7 @@ main {
 
 /* seven chakras icon image sizing*/
 .seven-chakras-container img {
-   height: 30px;
+    height: 30px;
 }
 
 /* seven chakras icon image aligning*/
@@ -288,6 +288,13 @@ main {
     margin-top: 10px;
 }
 
+
+/*margin to for heading 3 on top only so that alligns in the middle of the icon */
+.seven-chakras-container h3 {
+
+    margin-top: 10px;
+}
+
 .seven-chakras-container table th {
     text-align: left;
 }
@@ -296,12 +303,13 @@ main {
     width: 150px;
 }
 
-.seven-chakras-container table tr{
+.seven-chakras-container table tr {
     font-family: 'hind madurai', sans-serif;
     font-weight: 400;
     font-size: 13px;
 }
-.seven-chakras-container table th{
+
+.seven-chakras-container table th {
     font-weight: 700px;
     font-size: 14px;
 }
@@ -352,7 +360,7 @@ main {
     font-weight: 600;
 }
 
-#contact-form select{
+#contact-form select {
     height: 25px;
 }
 
@@ -374,7 +382,7 @@ main {
 
 .form-mandatory-star:after {
     content: "*";
-    color: rgb(255,0,0);
+    color: rgb(255, 0, 0);
 }
 
 /*Contact feedback page*/
@@ -417,11 +425,11 @@ footer a {
 /*400 pixels and up*/
 @media screen and (max-width: 400px) {
     tr {
-      display: inline-flex;
-      flex-direction: column;
-      width:40%;
+        display: inline-flex;
+        flex-direction: column;
+        width: 40%;
     }
-  }
+}
 
 /*768 pixels and up*/
 @media screen and (min-width: 768px) {
@@ -438,9 +446,9 @@ footer a {
     }
 
     /*Hero image balance chakras*/
-#hero-balance-chakras {
-    background: url(../images/balancing-chakra-hero-large.webp) no-repeat center center/cover;
-}
+    #hero-balance-chakras {
+        background: url(../images/balancing-chakra-hero-large.webp) no-repeat center center/cover;
+    }
 
     /*Hero image contact chakras*/
     #hero-contact-chakras {
@@ -506,12 +514,12 @@ footer a {
         display: none;
     }
 
-/*Seven chakras page*/
+    /*Seven chakras page*/
 
-/* seven chakras icon image sizing*/
-.seven-chakras-container img {
-    height: 40px;
- }
+    /* seven chakras icon image sizing*/
+    .seven-chakras-container img {
+        height: 40px;
+    }
 
     /*Balancing page*/
     .techniques {
