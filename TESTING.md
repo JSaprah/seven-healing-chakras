@@ -83,12 +83,18 @@ Desktop results:
 
 Result: No changes were made
 
+Audit image:
+![W3C stylesheet error](docs/screenshots/lighthouse-about-desktop.png)
+
 Mobile results:
 - On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
     - Large content element – hero image. No changes made to this as it was a personal choice to make the website look vissually attractive.
     - Preload content. Out of scope for this project.
 
 Result: No changes were made
+
+Audit image:
+![W3C stylesheet error](docs/screenshots/lighthouse-about-mobile.png)
 
 #### **Seven chakras page**
 
@@ -104,7 +110,6 @@ On three parts the website scored 100%. On the performance part the percentage i
 Action: Converted the image formats from png to webp and compressed the size to a smaller size.
 
 Result: the performance boosted to a full 100%.
-
 
 Mobile results:
 
@@ -158,8 +163,6 @@ Result: This solved the issue and brought the percentage up to 100%
 
 ***
 [return to README.md](README.md)
-
-
 
 
 
