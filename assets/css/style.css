@@ -233,8 +233,7 @@ main {
 
 /* seven chakras icon image sizing*/
 .seven-chakras-container img {
-    height: 40px;
-    width: 40px;
+   height: 30px;
 }
 
 /* seven chakras icon image aligning*/
@@ -350,7 +349,11 @@ main {
 #contact-form label {
 
     font-family: 'hind madurai', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+}
+
+#contact-form select{
+    height: 25px;
 }
 
 #submit-button {
@@ -375,10 +378,12 @@ main {
 }
 
 /*Contact feedback page*/
+/*Contact feedback form*/
 .contact-feedback-container {
     text-align: center;
 }
 
+/*Contact feedback icon*/
 .contact-feedback-container i {
     font-size: 300%;
     color: rgb(0, 128, 0)
@@ -392,6 +397,7 @@ footer {
     width: 100%;
 }
 
+/*Social Media network styling*/
 #social-media-network {
     display: flex;
     flex-direction: center;
@@ -500,6 +506,12 @@ footer a {
         display: none;
     }
 
+/*Seven chakras page*/
+
+/* seven chakras icon image sizing*/
+.seven-chakras-container img {
+    height: 40px;
+ }
 
     /*Balancing page*/
     .techniques {
