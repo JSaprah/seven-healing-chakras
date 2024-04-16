@@ -84,7 +84,7 @@ Desktop results:
 Result: No changes were made
 
 Audit image:
-![W3C stylesheet error](docs/screenshots/lighthouse-about-desktop.png)
+![Lighthouse score for desktop about.html](docs/screenshots/lighthouse-about-desktop.png)
 
 Mobile results:
 - On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
@@ -94,7 +94,7 @@ Mobile results:
 Result: No changes were made
 
 Audit image:
-![W3C stylesheet error](docs/screenshots/lighthouse-about-mobile.png)
+![Lighthouse score for mobile about.html](docs/screenshots/lighthouse-about-mobile.png)
 
 #### **Seven chakras page**
 
@@ -111,6 +111,13 @@ Action: Converted the image formats from png to webp and compressed the size to 
 
 Result: the performance boosted to a full 100%.
 
+Audit image
+Before changes: 
+![Lighthouse score for Desktop seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-desktop.png)
+
+After changes:
+![Lighthouse score for Desktop seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-desktop-after.PNG)
+
 Mobile results:
 
 On three parts the website scored 100%. On the performance part the percentage is 94%. The reason for this is:
@@ -123,6 +130,14 @@ Action: Converted the image formats from png to webp and compressed the size to 
 
 Result: Converting the image to webp format and compressing them to a smaller size made a huge difference in the performance. It went up from 76 to 94.
 
+Audit image
+Before changes: 
+![Lighthouse score for mobile seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-mobile-before.png)
+
+After changes:
+![Lighthouse score for mobile seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-mobile-after.png)
+
+
 #### **Balancing page**
 
 Desktop results:
@@ -132,12 +147,18 @@ On three parts the website scored 100%. On the performance part the percentage i
 
 Result: No changes were made
 
+Audit image:
+![Lighthouse score for Desktop balance-chakras.html](docs/screenshots/lighthouse-balancing-desktop.png)
+
 Mobile results:
 
 On three parts the website scored 100%. On the performance part the percentage is 98%. The reason for this is:
 -	Pre connect to required origins. Out of scope for this project.
 
 Result: No changes were made
+
+Audit image:
+![Lighthouse score for mobile balance-chakras.html](docs/screenshots/lighthouse-balancing-mobile.png)
 
 #### **Contact page**
 
@@ -148,6 +169,9 @@ On three parts the website scored 100%. On the performance part the percentage i
 
 Result: No changes were made
 
+Audit image:
+![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-desktop.png)
+
 Mobile results:
 
 On two parts the website scored 100%. 
@@ -157,9 +181,40 @@ On the performance part the percentage is 99%. The reason for this is:
 On the SEO part the percentage is 98%. The reason for this is:
 -	Tap targets are not sized appropriately. – Change accepted
 
+Error image:
+![Lighthouse error for SEO mobile contact.html](docs/screenshots/lighthouse-contact-mobile-seo-error.png)
+
 Action: Resize the dropdown field
 
 Result: This solved the issue and brought the percentage up to 100%
+
+Audit image
+Before changes:
+![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-before.png)
+
+After changes:
+![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-after.png)
+
+#### **Contact feedback page**
+
+Desktop results:
+- The score for all four categories was 100%
+
+Result: No changes were made
+
+Audit image:
+![Lighthouse score for desktop contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-desktop.PNG)
+
+Mobile results:
+- On three parts the website scored 100%. On the performance part the percentage was 92%. The reason for this is:
+    - Large content element – hero image. No changes were made.
+    - Eliminate render blocking elements: This is done on purpose. 
+
+Result: No changes were made
+
+Audit image:
+![Lighthouse score for mobile contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-mobile.PNG)
+
 
 ***
 [return to README.md](README.md)
