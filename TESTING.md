@@ -45,42 +45,119 @@ This resulted in 5 errors which were fixed:
 
 Two errors, two sub-errors and one warning was found using this validator:
 
-1. 
-Issue: Stylsheet tag
+1. Stylsheet tag
 Place: On all pages.
-Description: 
-Issues with the stylsheet tag which caused three errors. I mentioned the tags stylesheet in. The stylesheet tags are used when you want the styling content in the HTML file. This would go above the body element. In this case I have a separate file for css. Removing the stylesheet tags made the three errors dissapear.
+Description: Issues with the stylsheet tag which caused three errors. I mentioned the tags stylesheet in. The stylesheet tags are used when you want the styling content in the HTML file. This would go above the body element. In this case I have a separate file for css. Removing the stylesheet tags made the three errors dissapear.
 
 This caused in total three errors.
 
 Error image: 
 
-![W3C stylesheet error](docs//w3c-stylesheet-tag-error.png)
+![W3C stylesheet error](docs/screenshots/w3c-stylesheet-tag-error.png)
 
-2. 
-Issue: Closing tag for icon
+2. Closing tag for icon
 Place: On all pages.
-Description: 
-There was an additional closing tag in the Youtube icon. I deleted this tag and the error was solved.
+Description: There was an additional closing tag in the Youtube icon. I deleted this tag and the error was solved.
 
 Error image:
 
 ![W3C Closing tag error](docs/screenshots/w3c-closing-tag-icon-error.png)
 
-3. 
-Issue: Section without header
+3. Section without header
 Place: Balancing page.
 Description: 
 Warning of a section without header. After double checking this it was on the class “eight techniques” which covers the eight methods. As this element does not need any headings and was only meant to divide the content I changed the section tags to div tags. This solved the problem.
 
 ![W3C Closing tag error](docs/screenshots/w3c-section-lacks-heading-warning.png)
 
+### **Lighthouse**
+
+An audit has been conducted on all pages for both mobile and desktop. And in normal browser and incognito mode. The audit was performed for four categories: performance, accesibility, best practices and SEO.
+
+The results were as following:
+
+#### **About page**
+
+Desktop results:
+- The score for all four categories was 100%
+
+Result: No changes were made
+
+Mobile results:
+- On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
+    - Large content element – hero image. No changes made to this as it was a personal choice to make the website look vissually attractive.
+    - Preload content. Out of scope for this project.
+
+Result: No changes were made
+
+#### **Seven chakras page**
+
+Desktop results:
+
+On three parts the website scored 100%. On the performance part the percentage is 94%. The reason for this is:
+
+-	Large content element – hero image. No changes made to this as mentioned in the about section this was a personal decision.
+-	Preload content. Out of scope for this project.
+-	Convert images from png format to webp. Change accepted.
+-	Use HTTP2. Out of scope for this project.
+
+Action: Converted the image formats from png to webp and compressed the size to a smaller size.
+
+Result: the performance boosted to a full 100%.
 
 
+Mobile results:
 
+On three parts the website scored 100%. On the performance part the percentage is 94%. The reason for this is:
+-	Large content element – hero image. No changes made to this.
+-	Preload content. Out of scope for this project.
+-	Convert images from png format to webp and making the size smaller. Change accepted.
+-	Use HTTP2. Out of scope for this project.
 
+Action: Converted the image formats from png to webp and compressed the size to a smaller size.
 
+Result: Converting the image to webp format and compressing them to a smaller size made a huge difference in the performance. It went up from 76 to 94.
 
+#### **Balancing page**
+
+Desktop results:
+
+On three parts the website scored 100%. On the performance part the percentage is 99%. The reason for this is:
+-	Pre connect to required origins. Out of scope for this project
+
+Result: No changes were made
+
+Mobile results:
+
+On three parts the website scored 100%. On the performance part the percentage is 98%. The reason for this is:
+-	Pre connect to required origins. Out of scope for this project.
+
+Result: No changes were made
+
+#### **Contact page**
+
+Desktop results:
+
+On three parts the website scored 100%. On the performance part the percentage is 99%. The reason for this is:
+-	Large content element – hero image. No changes made to this.
+
+Result: No changes were made
+
+Mobile results:
+
+On two parts the website scored 100%. 
+On the performance part the percentage is 99%. The reason for this is:
+-	Eliminate render-blocking resource. No changes were made
+
+On the SEO part the percentage is 98%. The reason for this is:
+-	Tap targets are not sized appropriately. – Change accepted
+
+Action: Resize the dropdown field
+
+Result: This solved the issue and brought the percentage up to 100%
+
+***
+[return to README.md](README.md)
 
 
 
