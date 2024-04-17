@@ -349,7 +349,7 @@ main {
     font-size: 12px;
 }
 
-#contact-form select {
+#contact-form select, .user-info{
     height: 25px;
 }
 
@@ -505,6 +505,10 @@ footer a {
         font-size: 102%;
     }
 
+    .line-break-form{
+        padding-bottom: 20px;
+    }
+
     /*Navigation*/
     .top-navigation {
         display: block;
@@ -567,6 +571,10 @@ footer a {
     .top-navigation,
     #contact-form label {
         font-size: 120%;
+    }
+
+    .line-break-form{
+        padding-bottom: 25px;
     }
 
 }

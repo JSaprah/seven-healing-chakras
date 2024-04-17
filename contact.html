@@ -60,23 +60,24 @@
         <form id="contact-form" action="contact-feedback.html" method="GET">
 
             <!--First Name-->
-            <label for="first-name" class="line-break-top form-mandatory-star">First Name</label>
+            <label for="first-name" class="line-break-top-bottom form-mandatory-star user-info line-break-form">First Name</label>
             <input id="first-name" type="text" name="first-name" required>
-
+           
             <!--Last Name-->
-            <label for="last-name" class="line-break-top form-mandatory-star">Last Name</label>
+            <label for="last-name" class="line-break-top-bottom form-mandatory-star user-info line-break-form">Last Name</label>
             <input id="last-name" type="text" name="last-name" required>
-
+           
             <!--Email-->
-            <label for="email" class="line-break-top form-mandatory-star">Email</label>
+            <label for="email" class="line-break-top-bottom form-mandatory-star user-info line-break-form">Email</label>
             <input id="email" type="email" name="email" required>
-
+            
             <!--Description-->
-            <label for="description" class="line-break-top form-mandatory-star">Description</label>
-            <textarea id="description" name="description" rows="5" cols="33" required></textarea>
+            <label for="description" class="form-mandatory-star line-break-top">Description</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
 
             <!--dropdown for chakras-->
-            <label for="chakra-selection" class="line-break-top">Select the chakra if you need specific information</label>
+            <label for="chakra-selection" class="line-break-top">Select the chakra if you need specific
+                information</label>
             <select id="chakra-selection" name="chakra-selection">
                 <option value="select-your-option" disabled selected>Please select</option>
                 <option value="root">Root</option>
@@ -87,9 +88,9 @@
                 <option value="third-eye">Third Eye</option>
                 <option value="crown">Crown</option>
             </select>
-
+            <br>
             <!--Button-->
-            <div class="line-break-top" id="submit-button">
+            <div class="line-break-top line-break-form" id="submit-button">
                 <input type="submit" value="Submit" id="form-submit-button">
             </div>
         </form>
