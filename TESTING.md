@@ -2,17 +2,17 @@
 
 ## **Testing methods**
 
-Several methods have been used for continuous improvement during the project as well as test post finishing the project. The first part of this document covers the issues faced and solved during the project. The second part is about the testing after.
+Several methods have been used for continuous improvement during the project as well as test post finishing the project. The first part of this document covers the issues faced and solved during the project. The second part is about the testing after.  
 
 ## **Manual testing**
 
-The following manual methods were used for testing:
+The following manual methods were used for testing:  
 
 1. Testing by changing the code in GitPod and viewing the output on port 8000. I continously checked this on the responsiveness and made media queries where needed. I made changes in the "inspect" part just to see what impact my changes would have and to find any issues. For example a part of my screen was showing blank and the main part was not getting covered by it. By using the inspect option I came to know what was causing this issue. Also, below the footer there were some additional quotes which did allow the footer to align to the bottom. I managed to get both of these issues resolved.
 2. Deployed the website via GitHub and checked how the website would look here. From here I discovered that not all images were showing which were visible on the testing website. The reason for this was that I used absolute values instead of relative values.
 3. Checked the website several browsers e.g. Internet Explorer, Chrome and Microsoft Edge. This did not cause any issues. No issues were found here.
 4. Shared the URL with my family so they could have a look at their devices and see if everything is readable and showing up correctly. No issues were found here.
-5. Mentor session with David on 9 April, 14 April and 17 April. I kept a log with all my questions and all improvement points mentioned in the meetings. The points that came out of the meeting are as following:
+5. Mentor session with David on 9 April, 14 April and 17 April. I kept a log with all my questions and all improvement points mentioned in the meetings. The points that came out of the meeting are as following:  
 
 | Date         |Feedback type|Description  |
 | -------------|-------------|-------------|
@@ -25,6 +25,13 @@ The following manual methods were used for testing:
 | 14/04-2024   | Error       | Images visible in the testing environment, but not on the deployed website. Solved this by making the path relative instead of absolute by adding. |
 | 14/04-2024   | Error       | Table taking too much space on smaller screens. Solved this by adding a media query for smaller screens and reversing the table vertically. |
 | 14/04-2024   | Improvement | When submit form I was using a post method. Mentor suggested me a different approach and sending the user to a different page on the same website. Implemented the changes. |
+| 17/04-2024   | Testing | In this session we went through the validators and three minor syntax issues were found in the css file. Like adding number without px and I forgot closing the tags on two places. |  
+
+Some other issues, next to the bugs mentioned above, that I faced during the project:  
+
+- I had the table in horizontal view. On a smaller screen the table would go out of the view. I tried adding padding and making the columns smaller, but nothing really solved this issue. Then I came to the idea to make table go to a vertical view if the size is smaller from the point it breaks. I solved this by adding an additional media query.  
+- In the contact form the button was only visible for a part. After some debugging it appeared that the button size is set to a fixed number using the input properties. My aim was to make the input fields slightly bigger. Forgetting that the button is a part of the input property. I tackled this by making an additional class and noting down a query below the input query which made the button bigger.  
+- For the padding part I made classes instead of using br. In the contact form this was causing issues as the font size became bigger and the padding was not enough. I added an additional class for form padding and added a media query with more padding. This resolved the issue.  
 
 
 ## **Testing with validators**
@@ -32,14 +39,14 @@ The following manual methods were used for testing:
 For this part the following validators were used:
 1. WAVE - Web Accesibility Evaluation Tools - https://wave.webaim.org/
 2. W3C - Markup Validation Service - https://validator.w3.org/
-3. Lighthouse - via Developers Tools
+3. Lighthouse - via Developers Tools  
 
 ### **Wave**
 
-This resulted in 5 errors which were fixed:
+This resulted in 5 errors which were fixed:  
 
-- Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.
-- Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.
+- Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.  
+- Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.  
 
 ### **W3C**
 
@@ -51,7 +58,7 @@ Description: Issues with the stylsheet tag which caused three errors. I mentione
 
 This caused in total three errors.
 
-Error image: 
+Error image:  
 
 ![W3C stylesheet error](docs/screenshots/w3c-stylesheet-tag-error.png)
 
@@ -59,7 +66,7 @@ Error image:
 Place: On all pages.
 Description: There was an additional closing tag in the Youtube icon. I deleted this tag and the error was solved.
 
-Error image:
+Error image:  
 
 ![W3C Closing tag error](docs/screenshots/w3c-closing-tag-icon-error.png)
 
@@ -68,7 +75,9 @@ Place: Balancing page.
 Description: 
 Warning of a section without header. After double checking this it was on the class “eight techniques” which covers the eight methods. As this element does not need any headings and was only meant to divide the content I changed the section tags to div tags. This solved the problem.
 
-![W3C Closing tag error](docs/screenshots/w3c-section-lacks-heading-warning.png)
+![W3C Closing tag error](docs/screenshots/w3c-section-lacks-heading-warning.png)  
+
+Three minor syntax errors were found in the css file related to forgetting px behind a number, forgetting a closing tag.  
 
 ### **Lighthouse**
 
@@ -76,15 +85,15 @@ An audit has been conducted on all pages for both mobile and desktop. And in nor
 
 The results were as following:
 
-#### **About page**
+#### **About page**  
 
 Desktop results:
 - The score for all four categories was 100%
 
 Result: No changes were made
 
-Audit image:
-![Lighthouse score for desktop about.html](docs/screenshots/lighthouse-about-desktop.png)
+Audit image:  
+![Lighthouse score for desktop about.html](docs/screenshots/lighthouse-about-desktop.png)  
 
 Mobile results:
 - On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
@@ -93,7 +102,7 @@ Mobile results:
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for mobile about.html](docs/screenshots/lighthouse-about-mobile.png)
 
 #### **Seven chakras page**
@@ -112,10 +121,10 @@ Action: Converted the image formats from png to webp and compressed the size to 
 Result: the performance boosted to a full 100%.
 
 Audit image
-Before changes: 
+Before changes:  
 ![Lighthouse score for Desktop seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-desktop.png)
 
-After changes:
+After changes:  
 ![Lighthouse score for Desktop seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-desktop-after.PNG)
 
 Mobile results:
@@ -131,10 +140,10 @@ Action: Converted the image formats from png to webp and compressed the size to 
 Result: Converting the image to webp format and compressing them to a smaller size made a huge difference in the performance. It went up from 76 to 94.
 
 Audit image
-Before changes: 
+Before changes:  
 ![Lighthouse score for mobile seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-mobile-before.png)
 
-After changes:
+After changes:  
 ![Lighthouse score for mobile seven-chakras.html](docs/screenshots/lighthouse-sevenchakras-mobile-after.png)
 
 
@@ -147,7 +156,7 @@ On three parts the website scored 100%. On the performance part the percentage i
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for Desktop balance-chakras.html](docs/screenshots/lighthouse-balancing-desktop.png)
 
 Mobile results:
@@ -157,7 +166,7 @@ On three parts the website scored 100%. On the performance part the percentage i
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for mobile balance-chakras.html](docs/screenshots/lighthouse-balancing-mobile.png)
 
 #### **Contact page**
@@ -169,7 +178,7 @@ On three parts the website scored 100%. On the performance part the percentage i
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-desktop.png)
 
 Mobile results:
@@ -181,7 +190,7 @@ On the performance part the percentage is 99%. The reason for this is:
 On the SEO part the percentage is 98%. The reason for this is:
 -	Tap targets are not sized appropriately. – Change accepted
 
-Error image:
+Error image:  
 ![Lighthouse error for SEO mobile contact.html](docs/screenshots/lighthouse-contact-mobile-seo-error.png)
 
 Action: Resize the dropdown field
@@ -189,11 +198,11 @@ Action: Resize the dropdown field
 Result: This solved the issue and brought the percentage up to 100%
 
 Audit image
-Before changes:
+Before changes:  
 
 ![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-before.png)
 
-After changes:
+After changes:  
 
 ![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-after.png)
 
@@ -204,7 +213,7 @@ Desktop results:
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for desktop contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-desktop.PNG)
 
 Mobile results:
@@ -214,7 +223,7 @@ Mobile results:
 
 Result: No changes were made
 
-Audit image:
+Audit image:  
 ![Lighthouse score for mobile contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-mobile.PNG)
 
 
