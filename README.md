@@ -72,10 +72,25 @@ Each page consists of a header with three elements: a title, navigation and a he
 * Hero image to make the the page visually attractive. 
 * Except making the website look better visually these images dont serve any motive.
 * The images are chosen based on the content that I found suitable and attractive.
+
+##### **Reasoning for each hero image**
 *   About: A sitting person in yoga posture with smaller chakra images showing on top of it. These are placed according to where the chakra is located. This gives a good overview of chakras. Also,the image colors, mainly black and yellow, go well with the website theme, therefore this image gives a good presence to the index/about page.
-*   Seven chakras: 
-*   Balancing
-*   Contact
+
+![Hero image about page](docs/screenshots/hero-image-about.PNG)  
+
+
+*   Seven chakras: Personally, this image was very appealing to me because of the colors. There is a bit of a yellow shade in the form of chakra coming from the back, which gave me the vibe of energy and power. The yellow color goes well with the theme. Further on this image 7 persons can be seen in the same yoga posture with different colors. Each chakra has its own color and each person represents one chakra. Throughout the page I have played with the same colors. 
+
+![Hero image seven chakras page](docs/screenshots/hero-image-sevenchakras.PNG)  
+
+*   Balancing: For this hero image my motivation came from the techniques for balancing which are mentioned on the this page. I tried to find a good combination of the techniques and I came across an image of a person doing yoga in nature. I was not able to capture all eight in a picture, but this covered quite a few techniques: nature, yoga, meditation, breathing. The green color in the image gave a boost to the overal subtle contrast of the theme. Also, the picture had a very high quality which went very well. 
+
+![Hero image balancing page](docs/screenshots/hero-image-balancing.PNG)  
+
+*   Contact: For this one, as the final page on the website, I wanted to go for a relaxing yet subtle image complimenting the look and feel of the website. The colors went well with the website and it acomplished my search for a calm and subtle image. 
+*   Contact feedback: The same image as the contact page has been chosen for this one. As the proces remains the same I wanted to keep the same image.
+
+![Hero image contact and contact feedback page](docs/screenshots/hero-image-contact.PNG)  
 
 ### **Main**
 
