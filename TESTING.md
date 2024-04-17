@@ -190,9 +190,11 @@ Result: This solved the issue and brought the percentage up to 100%
 
 Audit image
 Before changes:
+
 ![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-before.png)
 
 After changes:
+
 ![Lighthouse score for Desktop contact.html](docs/screenshots/lighthouse-contact-mobile-after.png)
 
 #### **Contact feedback page**
