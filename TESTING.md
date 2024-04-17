@@ -224,8 +224,7 @@ Mobile results:
 Result: No changes were made
 
 Audit image:  
-![Lighthouse score for mobile contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-mobile.PNG)
-
+![Lighthouse score for mobile contact-feedback.html](docs/screenshots lighthouse-contact-feedback-mobile.PNG)
 
 ***
 [return to README.md](README.md)
