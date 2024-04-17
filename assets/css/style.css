@@ -93,6 +93,7 @@ header a {
 }
 
 /*Font styles for all headers and paragraph*/
+
 /*Header 1 used at the top */
 h1 {
     font-family: 'montserat', sans-serif;
@@ -166,7 +167,7 @@ p {
     width: 100%;
 }
 
-/*Main*/
+/*Main to push the footer down and make the main section cover the largest part*/
 main {
     flex: 1 0 auto;
     max-width: 1400px;
@@ -200,7 +201,6 @@ main {
 /* Seven chakras page*/
 
 /*border colour around the div for each of the seven chakras*/
-
 #root {
     border: 1px solid rgba(255, 0, 0, 0.5);
 }
@@ -271,7 +271,6 @@ main {
     background-color: rgba(143, 0, 255, 0.2);
 }
 
-/* text aligning within the border */
 /*margin to avoid aligning of the mantra text direct to the borders*/
 .chakra-seven {
     margin: 10px;
@@ -288,6 +287,7 @@ main {
     margin-top: 10px;
 }
 
+/*Table styling*/
 .seven-chakras-container table tr {
     font-family: 'hind madurai', sans-serif;
     font-size: 13px;
@@ -303,12 +303,15 @@ main {
 }
 
 /*Balancing page*/
+
+/*Align the eight techniques in the center*/
 .techniques {
     padding: 20px;
     background-color: rgb(108, 19, 19, 10%);
     text-align: center;
 }
 
+/*Change the color of h3 and icon*/
 .techniques h3,
 .techniques i {
     color: rgb(108, 19, 19);
@@ -325,6 +328,8 @@ main {
 }
 
 /*Contact page*/
+
+/*Styling of the contact form*/
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -333,15 +338,18 @@ main {
     border: 2px solid rgb(108, 19, 19);
 }
 
+/*Align the introduction text of the page to the center and change the color*/
 #form-information {
     color: rgb(108, 19, 19);
     text-align: center;
 }
 
+/*Changing the font size of the icons*/
 #form-information i {
     font-size: 300%;
 }
 
+/*Styling of the font of the form labels*/
 #contact-form label {
 
     font-family: 'hind madurai', sans-serif;
