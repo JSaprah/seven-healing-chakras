@@ -51,17 +51,31 @@ Each page consists of a header with three elements: a title, navigation and a he
 #### **Title**
 
 * The title serves as the main name of the website, which is self explanatory: "The seven chakras".
-* The title is clickable and brings the user always back to the about page.
+* The title is clickable and brings the user from every page back to the about page.
 * For the title the Font-family Montserat is used. For me this heading had a simple yet powerful look. This was also the top of the typography theme which I mentioned in the section before.
+
+![Title image](docs/screenshots/title-seven-chakras.PNG)  
 
 #### **Navigation**
 
-* The navigation consists of four tabs: About, Seven chakras, 
-* Navigation with descriptive content. The active page is shown in a different color.
+* The navigation consists of four tabs: About, Seven chakras, Balancing and contact. 
+* Each tab is descriptive to the page content. 
+* The selected page has a meroon color.
+* When hovered over the navigation tabs a partly meroon color is visible.
+* The navigation has two styles - for smaller screen it is a hamburger menu with a vertical list. The list items can be seen using the hamburger menu. 
+* The hamburger menu is set to do not display on larger screens. Instead the list items are shown vertically and are always visible on the screen. 
+
+![Navigation image](docs/screenshots/navigation-seven-chakras.PNG)  
 
 #### **Hero image**
 
-* Hero image to make the the page visually attractive. The images are chosen basen on the content. 
+* Hero image to make the the page visually attractive. 
+* Except making the website look better visually these images dont serve any motive.
+* The images are chosen based on the content that I found suitable and attractive.
+*   About: A sitting person in yoga posture with smaller chakra images showing on top of it. These are placed according to where the chakra is located. This gives a good overview of chakras. Also,the image colors, mainly black and yellow, go well with the website theme, therefore this image gives a good presence to the index/about page.
+*   Seven chakras: 
+*   Balancing
+*   Contact
 
 ### **Main**
 
