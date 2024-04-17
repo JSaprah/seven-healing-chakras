@@ -38,6 +38,10 @@ The fonts were sourced from Google Fonts. Also, I used Fontjoy to find a suitabl
 
 ![Font family](docs/screenshots/font-family-sevenchakras.png)  
 
+## **Approach**
+
+Mobile first approach has been used in this project with the reason: It is easier to get element from a small device fit on a larger device. Media queries have been used to override the code for larger devices such as tablets, laptops desktops. I have taken care of screen sizes starting from 300px to above. If its get above 1400px then the content is centered and still visible on the screen. 
+
 ## **Generic features - on all pages**
 
 ### **Header**
@@ -53,11 +57,10 @@ Each page consists of a header with three elements: a title, navigation and a he
 #### **Navigation**
 
 * The navigation consists of four tabs: About, Seven chakras, 
+* Navigation with descriptive content. The active page is shown in a different color.
 
 #### **Hero image**
 
-
-* Navigation with descriptive content. The active page is shown in a different color.
 * Hero image to make the the page visually attractive. The images are chosen basen on the content. 
 
 ### **Main**
