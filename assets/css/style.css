@@ -380,6 +380,11 @@ main {
     text-align: center;
 }
 
+/*Hover less shading for button*/
+#form-submit-button:hover {
+    background-color: rgb(108, 19, 19, 90%);
+}
+
 /*center the button targeted from div*/
 #submit-button {
     text-align: center;
@@ -402,6 +407,26 @@ main {
 .contact-feedback-container i {
     font-size: 300%;
     color: rgb(0, 128, 0)
+}
+
+/*Go back to contact page url styling*/
+#go-back {
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color: rgb(255, 239, 213);
+    background-color: rgb(108, 19, 19);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+/*Hover less shading for button*/
+#go-back:hover {
+    background-color: rgb(108, 19, 19, 90%);
 }
 
 /*Styling the footer properties*/
@@ -575,39 +600,42 @@ footer a {
         width: 50%;
     }
 
-    /*Contact page*/
-    /*Styling of the button*/
+    /* Contact page styling of the button*/
     #form-submit-button {
         height: 50px;
         width: 200px;
         font-size: 18px;
     }
 
-}
-
-/*1400 pixels and up*/
-@media screen and (min-width: 1400px) {
-
-    /*Increase the height of the hero image*/
-    #hero-about-chakras,
-    #hero-seven-chakras,
-    #hero-balance-chakras,
-    #hero-contact-chakras {
-        height: 500px;
-    }
-
-    /*Increase the size for all texts*/
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-size: 130%;
-    }
-
-    p,
-    .seven-chakras-container table tr,
-    .top-navigation,
-    #contact-form label {
-        font-size: 120%;
+    /*Contact feedback page font-size*/
+    #go-back {
+        font-size: 20px;
     }
 }
+
+    /*1400 pixels and up*/
+    @media screen and (min-width: 1400px) {
+
+        /*Increase the height of the hero image*/
+        #hero-about-chakras,
+        #hero-seven-chakras,
+        #hero-balance-chakras,
+        #hero-contact-chakras {
+            height: 500px;
+        }
+
+        /*Increase the size for all texts*/
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-size: 130%;
+        }
+
+        p,
+        .seven-chakras-container table tr,
+        .top-navigation,
+        #contact-form label {
+            font-size: 120%;
+        }
+    }

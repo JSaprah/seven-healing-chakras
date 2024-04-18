@@ -86,20 +86,23 @@ Each page consists of a header with three elements: a title, navigation and a he
 * The navigation has two styles - for smaller screen it is a hamburger menu with a vertical list. The list items can be seen using the hamburger menu. 
 * The hamburger menu is set to do not display on larger screens. Instead the list items are shown vertically and are always visible on the screen. 
 
-![Navigation image](docs/screenshots/navigation-seven-chakras.PNG)  
+![Navigation image desktop](docs/screenshots/navigation-seven-chakras.PNG)  
+
+![Navigation image mobile](docs/screenshots/navigation-seven-chakras-mobile.PNG)  
 
 #### **Hero image**
 
 * Hero image to make the the page visually attractive. 
 * Except making the website look better visually these images dont serve any motive.
 * The images are chosen based on the content that I found suitable and attractive. The choices are described in the individual page features.
+* Each hero image is explained in the section individual page features.
 
 ### **Main**
 
 * The main section covers most of the space. 
 * By using a flex in the property the footer is pushed down at the end of the page.
 * All main sections have a padding on the left and on the right to avoid aligning close to the border and keeping the text in the focus point.  
-* In depth description of the content of each page can be read in the sections below.
+* In depth description of the content of each page can be read in the section individual page features.
 
 ### **Footer**
 
@@ -111,16 +114,17 @@ Each page consists of a header with three elements: a title, navigation and a he
 
 ## **Individual page features**
 
+In this section the main part elements and the hero image for each page can be read.
+
 ### **About**
 
 * The index page of the website.
-* It gives a description of what chakras are and where it orignally came from.
+* The user can read a description of what chakras are and where it orignally came from.
 * The text is descriptive, straight to the point and the structure is kept simple and readable. 
-* The colors and the fonts have a great accesibility based on the color grid.
 
-![About page Desktop](docs/screenshots/about-page-desktop.PNG)  
+![About page Desktop](docs/screenshots/main-about-page-desktop.PNG)  
 
-![About page Mobile](docs/screenshots/about-page-mobile.PNG)  
+![About page Mobile](docs/screenshots/main-about-page-mobile.PNG)  
 
 #### **Hero image**
 
@@ -130,6 +134,7 @@ A sitting person in yoga posture with smaller chakra images showing on top of it
 
 ### **Seven chakras**
 
+* The user can read about the seven chakras and its elements. The information is easy to understand and visually attractive.
 * Description of the seven chakras sorted in seven sections.
 * The elements are shown in a table. The table is horizontally aligned. If the size goes below 400px the table will be shows vertically.
 * Mantras have been used for each of the seven chakras. H4 header has been used for the mantra in the serif and cursive style to mark it as a quotation. The quotation are taken from the website ![Hands on Health](http://www.handsonhealthsheffield.com/health/the-seven-chakras-for-beginners/#:~:text=Root%20Chakra%20(Muladhara)&text=When%20the%20root%20chakra%20is,re%20standing%20on%20unstable%20ground.&text=Mantra:%20%E2%80%9CI%20can't,grow%20from%20an%20unsteady%20foundation.%E2%80%9D)  
@@ -141,9 +146,9 @@ A sitting person in yoga posture with smaller chakra images showing on top of it
 
 The page images for both desktop and mobile can be seen below.
 
-![Seven chakra page Desktop](docs/screenshots/seven-chakras-desktop.PNG)  
+![Seven chakra page Desktop](docs/screenshots/main-seven-chakras-desktop.PNG)  
 
-![Seven chakra page Mobile](docs/screenshots/seven-chakras-mobile.PNG)  
+![Seven chakra page Mobile](docs/screenshots/main-seven-chakras-mobile.PNG)  
 
 #### **Hero image**
 
@@ -153,6 +158,7 @@ Seven chakras: Personally, this image was very appealing to me because of the co
 
 ### **Balancing chakras**
 
+* The user can get inspired by the techniques used for balancing the chakras.
 * The balancing page start with an introduction text to the page.
 * The second section contains the eight techniques which can be used to balance the chakras.
 * On larger devices techniques are divided in two columns. To do this the width of the text is set to 50%, otherwise the paragraph would cover too much space and it would not be possible to show two techniques in one row. On smaller devices it is shown as one column.
@@ -162,9 +168,9 @@ Seven chakras: Personally, this image was very appealing to me because of the co
 
 The page images for both desktop and mobile can be seen below.
 
-![Balancing page Desktop](docs/screenshots/balancing-page-desktop.PNG)  
+![Balancing page Desktop](docs/screenshots/main-balancing-chakras-desktop.PNG)  
 
-![Balancing page Mobile](docs/screenshots/balancing-chakras-mobile.PNG)  
+![Balancing page Mobile](docs/screenshots/main-balancing-chakras-mobile.PNG)  
 
 #### **Hero image**
 
@@ -181,14 +187,20 @@ Balancing: For this hero image my motivation came from the techniques for balanc
 * Upon submitting the form the user is navigated to a follow up page. For obvious reason this page is not shown in the navigation bar.
 * The user get feedback when he/she can expect a response.
 * A disclaimer has been added to make the user aware that the website is only for training purposes. This form is is just mimicking the process of filling in fields and submitting a form. 
+* A button is present in the contact feedback page for the user to navigate back to the contact page.
 
 #### **Page images**
 
 The page images for both desktop and mobile can be seen below.
 
-![Contact page Desktop](docs/screenshots/contact-desktop.PNG)  
+![Contact page Desktop](docs/screenshots/main-contact-desktop.PNG)  
 
-![Contact page Mobile](docs/screenshots/contact-mobile.PNG)  
+![Contact page Mobile](docs/screenshots/main-contact-mobile.PNG)  
+
+![Contact feedback page Desktop](docs/screenshots/main-contact-feedback-desktop.PNG)  
+
+![Contact feedback page Mobile](docs/screenshots/main-contact-feedback-mobile.PNG)  
+
 
 #### **Hero image**
 
@@ -214,9 +226,14 @@ Deployment steps have been followed as described in the love-running project. Th
     * Users can get advise on essential oils. Which oil and where to buy. 
 * From technicial perspective I believe that I was able to put in lots of my knowledge that I have learnt over the past time with this course. Enhancing my knowledge with javascript and adding real actions, such as sending the form and saving the information to a database would be the next step.
 
-## **Resources**  
+## **Resources and credits**  
 
 Read all about the resources used for this project.  
+
+### **General reference:**
+As a starting point I have been influenced by the project Love Running. Also, I used Google a lot to do research and find solutions. In my search, most of the time, I have used: 
+ * [Stack overflow](https://try.stackoverflow.co/explore-teams?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278306&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gclid=Cj0KCQjwiYOxBhC5ARIsAIvdH50YnE8hJzDHtOct-eti_TfrOjk82UP7kzwKMWd1EUeEio4oKg1mnjoaAoNgEALw_wcB)  
+ * [W3schools](https://www.w3schools.com/css/css_navbar_horizontal.asp)  
 
 ### **Media**  
 
