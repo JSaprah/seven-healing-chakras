@@ -180,7 +180,7 @@ Balancing: For this hero image my motivation came from the techniques for balanc
 * The dropdown is optional and only one option can be chosen. The first value "Please select" is a disabled value and cannot be chosen.
 * Upon submitting the form the user is navigated to a follow up page. For obvious reason this page is not shown in the navigation bar.
 * The user get feedback when he/she can expect a response.
-* A disclaimer has been added to make the user aware that the website is only for training purposes.
+* A disclaimer has been added to make the user aware that the website is only for training purposes. This form is is just mimicking the process of filling in fields and submitting a form. 
 
 #### **Page images**
 
@@ -203,6 +203,16 @@ The testing results can be found in a seperate file called: [TESTING.md](TESTING
 ## **Live site**  
 
 Deployment steps have been followed as described in the love-running project. The live site can be found here: [Seven chakras live website](https://jsaprah.github.io/seven-healing-chakras/)  
+
+## **Future enhancements** 
+
+* This website is for serving information purposes about the chakras.
+* Because of time constraints and with the reason of delivering a minimum viable product - this was not a requirement mentioned, I missed the opportunity to add videos and articles to the website. This would be a nice to have for in the future. With videos and articles the users would get more visual views about the chakras  
+* Further enhancement on the balancing techniques. Such as:
+    * The users could be linked to nearby places where they can follow yoga/meditation classes
+    * Users can get advise on nutrition. Charts on what to eat for healthy options
+    * Users can get advise on essential oils. Which oil and where to buy. 
+* From technicial perspective I believe that I was able to put in lots of my knowledge that I have learnt over the past time with this course. Enhancing my knowledge with javascript and adding real actions, such as sending the form and saving the information to a database would be the next step.
 
 ## **Resources**  
 
