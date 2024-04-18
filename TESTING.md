@@ -44,8 +44,8 @@ For this part the following validators were used:
 
 This resulted in 5 errors which were fixed:  
 
-- Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.  
-- Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.  
+* Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.  
+* Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.  
 
 ### **W3C**
 
@@ -95,9 +95,9 @@ Audit image:
 ![Lighthouse score for desktop about.html](docs/screenshots/lighthouse-about-desktop.png)  
 
 Mobile results:
-- On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
-    - Large content element – hero image. No changes made to this as it was a personal choice to make the website look vissually attractive.
-    - Preload content. Out of scope for this project.
+* On three parts the website scored 100%. On the performance part the percentage was 96%. The reason for this is:
+    * Large content element – hero image. No changes made to this as it was a personal choice to make the website look vissually attractive.
+    * Preload content. Out of scope for this project.
 
 Result: No changes were made
 
@@ -110,10 +110,10 @@ Desktop results:
 
 On three parts the website scored 100%. On the performance part the percentage is 94%. The reason for this is:
 
--	Large content element – hero image. No changes made to this as mentioned in the about section this was a personal decision.
--	Preload content. Out of scope for this project.
--	Convert images from png format to webp. Change accepted.
--	Use HTTP2. Out of scope for this project.
+*	Large content element – hero image. No changes made to this as mentioned in the about section this was a personal decision.
+*	Preload content. Out of scope for this project.
+*	Convert images from png format to webp. Change accepted.
+*	Use HTTP2. Out of scope for this project.
 
 Action: Converted the image formats from png to webp and compressed the size to a smaller size.
 
@@ -129,10 +129,10 @@ After changes:
 Mobile results:
 
 On three parts the website scored 100%. On the performance part the percentage is 94%. The reason for this is:
--	Large content element – hero image. No changes made to this.
--	Preload content. Out of scope for this project.
--	Convert images from png format to webp and making the size smaller. Change accepted.
--	Use HTTP2. Out of scope for this project.
+*	Large content element – hero image. No changes made to this.
+*	Preload content. Out of scope for this project.
+*	Convert images from png format to webp and making the size smaller. Change accepted.
+*	Use HTTP2. Out of scope for this project.
 
 Action: Converted the image formats from png to webp and compressed the size to a smaller size.
 
@@ -151,7 +151,7 @@ After changes:
 Desktop results:
 
 On three parts the website scored 100%. On the performance part the percentage is 99%. The reason for this is:
--	Pre connect to required origins. Out of scope for this project
+*	Pre connect to required origins. Out of scope for this project
 
 Result: No changes were made
 
@@ -161,7 +161,7 @@ Audit image:
 Mobile results:
 
 On three parts the website scored 100%. On the performance part the percentage is 98%. The reason for this is:
--	Pre connect to required origins. Out of scope for this project.
+*	Pre connect to required origins. Out of scope for this project.
 
 Result: No changes were made
 
@@ -173,7 +173,7 @@ Audit image:
 Desktop results:
 
 On three parts the website scored 100%. On the performance part the percentage is 99%. The reason for this is:
--	Large content element – hero image. No changes made to this.
+*	Large content element – hero image. No changes made to this.
 
 Result: No changes were made
 
@@ -184,10 +184,10 @@ Mobile results:
 
 On two parts the website scored 100%. 
 On the performance part the percentage is 99%. The reason for this is:
--	Eliminate render-blocking resource. No changes were made
+*	Eliminate render-blocking resource. No changes were made
 
 On the SEO part the percentage is 98%. The reason for this is:
--	Tap targets are not sized appropriately. – Change accepted
+*	Tap targets are not sized appropriately. – Change accepted
 
 Error image:  
 ![Lighthouse error for SEO mobile contact.html](docs/screenshots/lighthouse-contact-mobile-seo-error.png)
@@ -208,7 +208,7 @@ After changes:
 #### **Contact feedback page**
 
 Desktop results:
-- The score for all four categories was 100%
+* The score for all four categories was 100%
 
 Result: No changes were made
 
@@ -216,9 +216,9 @@ Audit image:
 ![Lighthouse score for desktop contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-desktop.PNG)
 
 Mobile results:
-- On three parts the website scored 100%. On the performance part the percentage was 92%. The reason for this is:
-    - Large content element – hero image. No changes were made.
-    - Eliminate render blocking elements: This is done on purpose. 
+* On three parts the website scored 100%. On the performance part the percentage was 92%. The reason for this is:
+    * Large content element – hero image. No changes were made.
+    * Eliminate render blocking elements: This is done on purpose. 
 
 Result: No changes were made
 
@@ -227,13 +227,3 @@ Audit image:
 
 ***
 [return to README.md](README.md)
-
-
-
-
-
-
-
-
-
-

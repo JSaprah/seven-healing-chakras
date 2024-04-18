@@ -234,8 +234,9 @@ The content is not written by myself as I wanted to focus on the coding part. Th
 * Seven chakras page: [Hands on health](http://www.handsonhealthsheffield.com/health/the-seven-chakras-for-beginners/#:~:text=Root%20Chakra%20(Muladhara)&text=When%20the%20root%20chakra%20is,re%20standing%20on%20unstable%20ground.&text=Mantra%3A%20%E2%80%9CI%20can't,grow%20from%20an%20unsteady%20foundation.%E2%80%9D)  
 * Balancing page: [Pen pen wellness](https://www.penpenwellness.com/post/8-easy-techniques-you-can-do-at-home-to-unblock-chakras)  
 * About page: [Webmd](https://www.webmd.com/balance/what-are-chakras)  
-* Other: [Healtline](https://www.healthline.com/)  
-* Other: [Mind body green](https://www.mindbodygreen.com/articles/7-chakras-for-beginners)  
+* Other:
+    * [Healtline](https://www.healthline.com/)  
+    * [Mind body green](https://www.mindbodygreen.com/articles/7-chakras-for-beginners)  
 
 ### **Testing**  
 
