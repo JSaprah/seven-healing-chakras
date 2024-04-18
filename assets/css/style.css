@@ -356,10 +356,15 @@ main {
     font-size: 12px;
 }
 
-/*Make the input labels bigger*/
+/*Make the field labels bigger*/
 #contact-form select,
 .user-info {
     height: 25px;
+    font-size: 14px;
+}
+
+/*Make the input field decision bigger*/
+#description {
     font-size: 14px;
 }
 
@@ -544,10 +549,15 @@ footer a {
         display: none;
     }
 
-    /*Make the input labels bigger*/
+    /*Make the input field bigger*/
     #contact-form select,
     .user-info {
         height: 35px;
+        font-size: 18px;
+    }
+
+    /*Make the input field decision bigger.*/
+    #description {
         font-size: 18px;
     }
 

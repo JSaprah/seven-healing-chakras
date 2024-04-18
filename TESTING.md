@@ -29,9 +29,10 @@ The following manual methods were used for testing:
 
 Some other issues, next to the bugs mentioned above, that I faced during the project:  
 
-- I had the table in horizontal view. On a smaller screen the table would go out of the view. I tried adding padding and making the columns smaller, but nothing really solved this issue. Then I came to the idea to make table go to a vertical view if the size is smaller from the point it breaks. I solved this by adding an additional media query.  
-- In the contact form the button was only visible for a part. After some debugging it appeared that the button size is set to a fixed number using the input properties. My aim was to make the input fields slightly bigger. Forgetting that the button is a part of the input property. I tackled this by making an additional class and noting down a query below the input query which made the button bigger.  
-- In the contact form the line break class did not give sufficient space for the label and the input on larger devices. The reason for this was that the font size increases with the device size To solve this I added an additional class for form padding and I added a media query with more padding then the existing class. I used this query in the media queries section which resolved the issue.  
+* I had the table in horizontal view. On a smaller screen the table would go out of the view. I tried adding padding and making the columns smaller, but nothing really solved this issue. Then I came to the idea to make table go to a vertical view if the size is smaller from the point it breaks. I solved this by adding an additional media query.  
+* In the contact form the button was only visible for a part. After some debugging it appeared that the button size is set to a fixed number using the input properties. My aim was to make the input fields slightly bigger. Forgetting that the button is a part of the input property. I tackled this by making an additional class and noting down a query below the input query which made the button bigger.  
+* In the contact form the line break class did not give sufficient space for the label and the input on larger devices. The reason for this was that the font size increases with the device size To solve this I added an additional class for form padding and I added a media query with more padding then the existing class. I used this query in the media queries section which resolved the issue.  
+    * Edit 1: It appeared that I was using the class in the label instead of input. This was the reason that the line break was not taking. I reversed the whole change above and put the class name back in the input field.
 
 ## **Testing with validators**
 
