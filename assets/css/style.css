@@ -130,7 +130,7 @@ h4 {
 p {
     font-family: 'hind madurai', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /*Hero images*/
@@ -303,10 +303,9 @@ main {
 }
 
 /*Balancing page*/
-
 /*Align the eight techniques in the center*/
 .techniques {
-    padding: 20px;
+    padding: 10px 20px;
     background-color: rgb(108, 19, 19, 10%);
     text-align: center;
 }
@@ -318,7 +317,7 @@ main {
 }
 
 .techniques i {
-    font-size: 200%;
+    font-size: 250%;
     margin: 20px;
 }
 
