@@ -360,6 +360,7 @@ main {
 #contact-form select,
 .user-info {
     height: 25px;
+    font-size: 14px;
 }
 
 /*Styling of the button*/
@@ -547,6 +548,7 @@ footer a {
     #contact-form select,
     .user-info {
         height: 35px;
+        font-size: 18px;
     }
 
     /*Seven chakras page*/
@@ -562,7 +564,6 @@ footer a {
     .techniques {
         width: 50%;
     }
-
 }
 
 /*1400 pixels and up*/
