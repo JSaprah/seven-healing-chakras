@@ -564,6 +564,15 @@ footer a {
     .techniques {
         width: 50%;
     }
+
+    /*Contact page*/
+    /*Styling of the button*/
+    #form-submit-button {
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+    }
+
 }
 
 /*1400 pixels and up*/
