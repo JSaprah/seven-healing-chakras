@@ -519,11 +519,6 @@ footer a {
         padding-left: 10px;
     }
 
-    /*Add more padding to the contact form as the labels started covering the inputs*/
-    .line-break-form {
-        padding-bottom: 20px;
-    }
-
     /*Navigation styling to show all navigation items instead of the hamburger menu*/
     .top-navigation {
         display: block;
@@ -546,6 +541,12 @@ footer a {
     /*Hide the hamburger menu*/
     .toggle-nav-label {
         display: none;
+    }
+
+    /*Make the input labels bigger*/
+    #contact-form select,
+    .user-info {
+        height: 35px;
     }
 
     /*Seven chakras page*/
@@ -588,10 +589,5 @@ footer a {
     .top-navigation,
     #contact-form label {
         font-size: 120%;
-    }
-
-    /*Add additional padding to the bottom of the form element*/
-    .line-break-form {
-        padding-bottom: 25px;
     }
 }
