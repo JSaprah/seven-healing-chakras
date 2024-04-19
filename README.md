@@ -46,7 +46,7 @@ The website is responsive and tested for devices starting at 300px. All device s
 
 The colors are checked using: [color grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFEFD5%0D%0A%236C1313%0D%0A%23FAEBD7%0D%0A%23000000%0D%0A%23985D5D%0D%0A%23FF0000%0D%0A%23008000%0D%0A%23ff000033%0D%0A&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)  
 
-![Color contrast grid](docs/screenshots/main-color-grid.PNG)  
+![Color contrast grid](docs/screenshots/color-grid.PNG)  
 
 #### **Typography**
 
@@ -61,7 +61,7 @@ The fonts were sourced from [Google Fonts](https://fonts.google.com/). Also, I u
 #### **Icons**
 
 * All icons were imported from [FontAwesome](https://fontawesome.com/)  
-* Icons were used throughout the project. The usage is described for every page seperately in this document.
+* extension has been added below the footer of all pages.
 
 ## **Generic features - on all pages**
 
@@ -71,9 +71,10 @@ Each page consists of a header with three elements: a title, navigation and a he
 
 #### **Title**
 
-* The title serves as the main name of the website, which is self explanatory: "The seven chakras".
+* The title serves as the main name of the website, which is self explanatory: "The seven healing chakras".
 * The title is clickable and brings the user from every page back to the about page.
-* For the title the Font-family Montserat is used. For me this heading had a simple yet powerful look. This was also the top of the typography theme which I mentioned in the section before.
+* For the title the Font-family Montserat is used. For me this heading had a simple yet powerful look. This was also the top of the typography theme in Fontjoy as mentioned in the typography section.
+
 
 ![Title image](docs/screenshots/title-seven-chakras.PNG)  
 
@@ -82,8 +83,8 @@ Each page consists of a header with three elements: a title, navigation and a he
 * The navigation consists of four tabs: About, Seven chakras, Balancing and contact. 
 * Each tab is descriptive to the page content. 
 * The selected page has a meroon color.
-* When hovered over the navigation tabs a partly meroon color is visible.
-* The navigation has two styles - for smaller screen it is a hamburger menu with a vertical list. The list items can be seen using the hamburger menu. 
+* When hovered over the navigation tabs a partly transparant meroon color is visible.
+* The navigation has two styles - for smaller screen it is a hamburger menu with a vertical list. The list items can be opened using the hamburger menu. 
 * The hamburger menu is set to do not display on larger screens. Instead the list items are shown vertically and are always visible on the screen. 
 
 ![Navigation image desktop](docs/screenshots/navigation-seven-chakras.PNG)  
@@ -93,8 +94,8 @@ Each page consists of a header with three elements: a title, navigation and a he
 #### **Hero image**
 
 * Hero image to make the the page visually attractive. 
-* Except making the website look better visually these images dont serve any motive.
-* The images are chosen based on the content that I found suitable and attractive. The choices are described in the individual page features.
+* Except from making the website look better visually these images dont serve any motive.
+* The images are chosen based on the content that I found suitable and attractive. 
 * Each hero image is explained in the section individual page features.
 
 ### **Main**
@@ -120,7 +121,9 @@ In this section the main part elements and the hero image for each page can be r
 
 * The index page of the website.
 * The user can read a description of what chakras are and where it orignally came from.
-* The text is descriptive, straight to the point and the structure is kept simple and readable. 
+* The text is descriptive, straight to the point and the structure is kept simple and readable.
+
+The page images for both desktop and mobile can be seen below.
 
 ![About page Desktop](docs/screenshots/main-about-page-desktop.PNG)  
 
@@ -137,7 +140,7 @@ A sitting person in yoga posture with smaller chakra images showing on top of it
 * The user can read about the seven chakras and its elements. The information is easy to understand and visually attractive.
 * Description of the seven chakras sorted in seven sections.
 * The elements are shown in a table. The table is horizontally aligned. If the size goes below 400px the table will be shows vertically.
-* Mantras have been used for each of the seven chakras. H4 header has been used for the mantra in the serif and cursive style to mark it as a quotation. The quotation are taken from the website ![Hands on Health](http://www.handsonhealthsheffield.com/health/the-seven-chakras-for-beginners/#:~:text=Root%20Chakra%20(Muladhara)&text=When%20the%20root%20chakra%20is,re%20standing%20on%20unstable%20ground.&text=Mantra:%20%E2%80%9CI%20can't,grow%20from%20an%20unsteady%20foundation.%E2%80%9D)  
+* Mantras have been used for each of the seven chakras. H4 header has been used for the mantra in the serif and cursive style to mark it as a quotation. The quotation are taken from the website [Hands on Health](http://www.handsonhealthsheffield.com/health/the-seven-chakras-for-beginners/#:~:text=Root%20Chakra%20(Muladhara)&text=When%20the%20root%20chakra%20is,re%20standing%20on%20unstable%20ground.&text=Mantra:%20%E2%80%9CI%20can't,grow%20from%20an%20unsteady%20foundation.%E2%80%9D)  
 * Each chakra has its own space surounded by a border which is matched to the chakra color. The same colors can be seen in the hero image. This creates a recurring an impactful effect. Also, this makes the sections clear and easy to understand. Theory of the box model lesson has been followed in this part. In the most inner part there is the content. To give the items some breathing space padding has been used. After that a border can be seen. The most outer part contains a margin again.
 
 ![Box model](docs/screenshots/box-model-seven-chakras.PNG)
@@ -152,7 +155,7 @@ The page images for both desktop and mobile can be seen below.
 
 #### **Hero image**
 
-Seven chakras: Personally, this image was very appealing to me because of the colors. There is a bit of a yellow shade in the form of chakra coming from the back, which gave me the vibe of energy and power. The yellow color goes well with the theme. Further on this image 7 persons can be seen in the same yoga posture with different colors. Each chakra has its own color and each person represents one chakra. Throughout the page I have played with the same colors. 
+Seven chakras: Personally, this image was very appealing to me because of the colors. There is a bit of a yellow shade in the form of chakra coming from the back, which gave me the vibe of energy and power. The yellow color goes well with the theme. Further, in this image seven human postures can be seen in different colors. Each chakra has its own color and each posture represents one chakra. Throughout the page I have played with the same colors. This can be seen back in the small pictures, the mantra color and the border color.
 
 ![Hero image seven chakras page](docs/screenshots/hero-image-sevenchakras.PNG)  
 
@@ -162,7 +165,7 @@ Seven chakras: Personally, this image was very appealing to me because of the co
 * The balancing page start with an introduction text to the page.
 * The second section contains the eight techniques which can be used to balance the chakras.
 * On larger devices techniques are divided in two columns. To do this the width of the text is set to 50%, otherwise the paragraph would cover too much space and it would not be possible to show two techniques in one row. On smaller devices it is shown as one column.
-* Icons have been used from [fontawesome](https://fontawesome.com/) fo eacht technique. Icons are chosen based on the content of the technique. 
+* Icons have been used from [fontawesome](https://fontawesome.com/) fo eacht technique. Icons are chosen based on the content of the technique This is done to make the information visually look better  
 
 #### **Page images**
 
@@ -174,7 +177,7 @@ The page images for both desktop and mobile can be seen below.
 
 #### **Hero image**
 
-Balancing: For this hero image my motivation came from the techniques for balancing which are mentioned on the this page. I tried to find a good combination of the techniques and I came across an image of a person doing yoga in nature. I was not able to capture all eight in a picture, but this covered quite a few techniques: nature, yoga, meditation, breathing. The green color in the image gave a boost to the overal subtle contrast of the theme. Also, the picture had a very high quality which went very well. 
+Balancing: For this hero image my motivation came from the techniques for balancing which are mentioned on the this page. I tried to find a good combination of the techniques and I came across an image of a person doing yoga in nature. I was not able to capture all eight in a picture, but this covered quite a few techniques: nature, yoga, meditation, breathing. The green color in the image gave a boost to the overal subtle contrast of the theme. Also, the picture had a very high quality and I loved the total effect it was creating.
 
 ![Hero image balancing page](docs/screenshots/hero-image-balancing.PNG)  
 
@@ -197,6 +200,8 @@ The page images for both desktop and mobile can be seen below.
 
 ![Contact page Mobile](docs/screenshots/main-contact-mobile.PNG)  
 
+Contact feedback images  
+
 ![Contact feedback page Desktop](docs/screenshots/main-contact-feedback-desktop.PNG)  
 
 ![Contact feedback page Mobile](docs/screenshots/main-contact-feedback-mobile.PNG)  
@@ -204,7 +209,9 @@ The page images for both desktop and mobile can be seen below.
 
 #### **Hero image**
 
-Contact: For this one, as the final page on the website, I wanted to go for a relaxing yet subtle image complimenting the look and feel of the website. The colors went well with the website and it acomplished my search for a calm and subtle image. Contact feedback: The same image as the contact page has been chosen for this one. As the proces remains the same I wanted to keep the same image.
+As the final page on the website, I wanted to go for a relaxing yet subtle image complimenting the look and feel of the website. The colors of the chosen image went well with the website and it acomplished my search for a calm image. The image represents candles, essential oils and nutrition as the foreground. With this it also covers the second part of the techniques on the balancing page.  
+
+Contact feedback: The same image as the contact page has been chosen for this one. As the proces remains the same I wanted to keep the same image.
 
 ![Hero image contact and contact feedback page](docs/screenshots/hero-image-contact.PNG)  
 
@@ -218,13 +225,14 @@ Deployment steps have been followed as described in the love-running project. Th
 
 ## **Future enhancements** 
 
-* This website is for serving information purposes about the chakras.
-* Because of time constraints and with the reason of delivering a minimum viable product - this was not a requirement mentioned, I missed the opportunity to add videos and articles to the website. This would be a nice to have for in the future. With videos and articles the users would get more visual views about the chakras  
-* Further enhancement on the balancing techniques. Such as:
-    * The users could be linked to nearby places where they can follow yoga/meditation classes
-    * Users can get advise on nutrition. Charts on what to eat for healthy options
-    * Users can get advise on essential oils. Which oil and where to buy. 
-* From technicial perspective I believe that I was able to put in lots of my knowledge that I have learnt over the past time with this course. Enhancing my knowledge with javascript and adding real actions, such as sending the form and saving the information to a database would be the next step.
+* As a starting point, the aim of creating this website was giving knowledge to user about the chakras. For the future, the main goal would remain the same.  
+* Further enhancement on the balancing techniques. Such as:  
+    * The users could be linked to nearby places where they can follow yoga/meditation classes  
+    * Users can get advise on nutrition. Charts on what to eat for healthy options  
+    * Users can get advise on essential oils. Which oil and where to buy.  
+    * Extend the form to quizes so the user can answer some questions and get to know what chakra is impacting their lifestyle.
+* Because of time constraints and with the reason of delivering a minimum viable product - this was not a requirement mentioned, I missed the opportunity to add videos and articles to the website. This would be a nice to have for in the future. With videos and articles the users would get more visual views about the chakras.  
+* From technicial perspective I believe that I was able to put in lots of my knowledge that I have learnt over the past time with this course. Enhancing my knowledge with other programming languages and adding real actions, such as sending the form and saving the information to a database, would be the next step.  
 
 ## **Resources and credits**  
 
