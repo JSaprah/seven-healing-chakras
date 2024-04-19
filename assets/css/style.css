@@ -410,7 +410,8 @@ main {
 
 /*Go back to contact page url styling*/
 #go-back {
-    font-size: 12px;
+    font-size: 13px;
+    font-family: 'hind madurai', sans-serif;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
@@ -421,6 +422,7 @@ main {
     padding: 10px 50px;
     text-align: center;
     margin: 20px;
+    text-transform: uppercase;
 }
 
 /*Hover less shading for button*/
@@ -461,21 +463,6 @@ footer a {
         display: inline-flex;
         flex-direction: column;
         width: 40%;
-    }
-
-    /* Decrease font size for all texts*/
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-size: 80%;
-    }
-
-    p,
-    .seven-chakras-container table tr,
-    .top-navigation,
-    #contact-form label {
-        font-size: 70%;
     }
 }
 
@@ -612,29 +599,29 @@ footer a {
     }
 }
 
-    /*1400 pixels and up*/
-    @media screen and (min-width: 1400px) {
+/*1400 pixels and up*/
+@media screen and (min-width: 1400px) {
 
-        /*Increase the height of the hero image*/
-        #hero-about-chakras,
-        #hero-seven-chakras,
-        #hero-balance-chakras,
-        #hero-contact-chakras {
-            height: 500px;
-        }
-
-        /*Increase the size for all texts*/
-        h1,
-        h2,
-        h3,
-        h4 {
-            font-size: 130%;
-        }
-
-        p,
-        .seven-chakras-container table tr,
-        .top-navigation,
-        #contact-form label {
-            font-size: 120%;
-        }
+    /*Increase the height of the hero image*/
+    #hero-about-chakras,
+    #hero-seven-chakras,
+    #hero-balance-chakras,
+    #hero-contact-chakras {
+        height: 500px;
     }
+
+    /*Increase the size for all texts*/
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 130%;
+    }
+
+    p,
+    .seven-chakras-container table tr,
+    .top-navigation,
+    #contact-form label {
+        font-size: 120%;
+    }
+}

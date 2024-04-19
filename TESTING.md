@@ -220,20 +220,23 @@ After changes:
 Desktop results:
 * The score for all four categories was 100%
 
-Result: No changes were made
-
-Audit image:  
+Audit image after making the change:  
 ![Lighthouse score for desktop contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-desktop.PNG)
 
 Mobile results:
 * On three parts the website scored 100%. On the performance part the percentage was 92%. The reason for this is:
     * Large content element – hero image. No changes were made.
     * Eliminate render blocking elements: This is done on purpose. 
+    * Edit: Just before submitting and while doing the final checks one last issue occured with the SEO of the contact-feedback page. It appeared that the font-size was lower than 12 px and this impacts the readability. In my code I put for smaller sizes a decrease of font-size in percentage. This was not the best choice made by me and I reversed the change. The SEO was 91% and I managed, with the font-size change, to get it back to 100.
 
-Result: No changes were made
+![Lighthouse score for mobile SEO ](docs/screenshots/lighthouse-contact-feedback-seo-mobile.PNG)
 
-Audit image:  
-![Lighthouse score for mobile contact-feedback.html](docs/screenshots lighthouse-contact-feedback-mobile.PNG)
+Result: Removed the part were I am decreasing the font-size.
+
+Audit image after:  
+
+![Lighthouse score for mobile contact-feedback.html](docs/screenshots/lighthouse-contact-feedback-mobile.PNG)
+
 
 ***
 [return to README.md](README.md)
