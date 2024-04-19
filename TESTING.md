@@ -24,15 +24,19 @@ The following manual methods were used for testing:
 | 14/04-2024   | Improvement | Change the image to webp format and make two sizes of each image for smaller and larger devices  |
 | 14/04-2024   | Error       | Images visible in the testing environment, but not on the deployed website. Solved this by making the path relative instead of absolute by adding. |
 | 14/04-2024   | Error       | Table taking too much space on smaller screens. Solved this by adding a media query for smaller screens and reversing the table vertically. |
-| 14/04-2024   | Improvement | When submit form I was using a post method. Mentor suggested me a different approach and sending the user to a different page on the same website. Implemented the changes. |
-| 17/04-2024   | Testing | In this session we went through the validators and three minor syntax issues were found in the css file. Such as: I forgot adding px after a number and I forgot closing the tags on two places.  
+| 14/04-2024   | Improvement | Uphon submitting the form I was using a post method. Mentor suggested me a different approach and sending the user to a different page on the same website. Implemented the changes. |
+| 17/04-2024   | Improvement |Change comments on some places from the section name to explaining what exactly is happening.|  
+| 17/04-2024   | Testing | In this session we went through the validators and three minor syntax issues were found in the css file. Such as: I forgot adding px after a number and I forgot closing the tags on two places.|   
 
 Some other issues, next to the bugs mentioned above, that I faced during the project:  
 
-* I had the table in horizontal view. On a smaller screen the table would go out of the view. I tried adding padding and making the columns smaller, but nothing really solved this issue. Then I came to the idea to make table go to a vertical view if the size is smaller from the point it breaks. I solved this by adding an additional media query.  
+* On the seven chakras page I have a table for elements for each chakra. This table was in horizontal view. On a smaller screen the table would go out of the view. I tried adding padding and making the columns smaller, but nothing really solved this issue. Then I came to the idea to make table go to a vertical view if the size is smaller from the point it breaks. I solved this by adding an additional media query.  
 * In the contact form the button was only visible for a part. After some debugging it appeared that the button size is set to a fixed number using the input properties. My aim was to make the input fields slightly bigger. Forgetting that the button is a part of the input property. I tackled this by making an additional class and noting down a query below the input query which made the button bigger.  
 * In the contact form the line break class did not give sufficient space for the label and the input on larger devices. The reason for this was that the font size increases with the device size To solve this I added an additional class for form padding and I added a media query with more padding then the existing class. I used this query in the media queries section which resolved the issue.  
     * Edit 1: It appeared that I was using the class in the label instead of input. This was the reason that the line break was not taking. I reversed the whole change above and put the class name back in the input field.
+* On the balancing page I used a flex wrap to view two techniques next to each other. The issue was that it did not put the text sections next to each other. The reason for this issue was that the paragraph contains long sentences and the width was taken as 100%. I resolved this issue by making the width 50%. Because of this reason the flex started doing its work and two techniques could be seen next to each other.
+* Unfixed not a bug, but an improvement point: I have two buttons one on the contact page and one on the contact feedback page. I could use the same styling by adding a class for both of them. I have added the contact feedback button bit of a last minute as an improvement of having some time left. As I did not want to break the code just before the deadline I have kept the styling seperate.
+* Other bugs were found using the test validators. In depth review can be read below.
 
 ## **Testing with validators**
 

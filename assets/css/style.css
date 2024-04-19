@@ -242,7 +242,6 @@ main {
 }
 
 /*mantra styling elements*/
-
 #root .mantra {
     background-color: rgba(255, 0, 0, 0.2);
 }
@@ -457,7 +456,7 @@ footer a {
 /*400 pixels and down*/
 
 /*Change table from horizontal view to vertical view*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     tr {
         display: inline-flex;
         flex-direction: column;
