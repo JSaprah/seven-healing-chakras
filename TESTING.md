@@ -41,9 +41,10 @@ Some other issues, next to the bugs mentioned above, that I faced during the pro
 ## **Testing with validators**
 
 For this part the following validators were used:
-1. WAVE - Web Accesibility Evaluation Tools - https://wave.webaim.org/
-2. W3C - Markup Validation Service - https://validator.w3.org/
+1. Web Accesibility Evaluation Tools: [WAVE](https://wave.webaim.org/)  
+2. W3C - Markup Validation Service - [W3C](https://validator.w3.org/)
 3. Lighthouse - via Developers Tools  
+4. Jigsaw W3 CSS validator: [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
 ### **Wave**
 
@@ -52,7 +53,7 @@ This resulted in 5 errors which were fixed:
 * Error on empty hamburger label. Add a class sr in a span in the label. Add styling to the css file for this class. Code shared by mentor.  
 * Four errors for label without content. Reason for this was not mentioning the ID in the input fields. By adding the ID’s in the input fields with the same text as the for tag in the label I was able to solve this issue.  
 
-### **W3C**
+### **W3C HTML validator**
 
 Two errors, two sub-errors and one warning was found using this validator:
 
@@ -81,7 +82,11 @@ Warning of a section without header. After double checking this it was on the cl
 
 ![W3C Closing tag error](docs/screenshots/w3c-section-lacks-heading-warning.png)  
 
+### **W3C HTML validator**
+
 Three minor syntax errors were found in the css file related to forgetting px behind a number, forgetting a closing tag.  
+
+![Jigsaw css validator-no-errors](docs/screenshots/jigsaw-css-validator.PNG)  
 
 ### **Lighthouse**
 

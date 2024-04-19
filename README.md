@@ -268,3 +268,4 @@ The content is not written by myself as I wanted to focus on the coding part. Th
 * Wave: [Wave](https://wave.webaim.org/help)  
 * W3C: [W3C](https://validator.w3.org/)  
 * Lighthouse: via developers tools.  
+* Jigsaw W3 CSS validator: [Jigsaw](https://jigsaw.w3.org/css-validator/)  
